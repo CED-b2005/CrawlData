@@ -5,18 +5,14 @@ from bs4 import BeautifulSoup
 import json
 import time
 
-import sys
-
-sys.stdout.reconfigure(encoding='utf-8');
-
 # Khởi tạo trình duyệt
 options = webdriver.ChromeOptions()
 options.add_argument("--headless")
 driver = webdriver.Chrome(options=options)
 
-url = "https://davas.vc/"
+url = "https://surfdanang.zone/"
 driver.get(url)
-time.sleep(5);
+time.sleep(3)
 
 speakers = []
 
@@ -44,7 +40,7 @@ while True:
         next_button = driver.find_element(By.CSS_SELECTOR, ".page-btn.btn-next.show")
         if next_button.is_enabled():
             next_button.click()
-            time.sleep(3)  # Đợi trang mới load xong
+            time.sleep(2)  # Đợi trang mới load xong
             extract_speakers_from_page()
         else:
             break

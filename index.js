@@ -26,19 +26,14 @@ app.get("/fetch", async (req, res) => {
         {},{})
 })
 
+app.get("/surf", async (req, res) => {
+    const result = require("./src/lib/crawler/executePython");
+    result(res, "surfdanang");
+})
+
 app.get("/davas", async (req, res) => {
-    const davas = require("./src/lib/crawler/davas/davas");
-    davas.speackers(res);
-})
-
-app.get("/suft", async (req, res) => {
-    const result = require("./src/lib/crawler/surfdanang/excutePython");
-    result(res);
-})
-
-app.get("/test", async (req, res ) => {
-    const a = `[{"name": "a"}, {"name": "b"}]`
-    res.send(JSON.parse(a));
+    const result = require("./src/lib/crawler/executePython");
+    result(res, "davas");
 })
 
 // const loop = setInterval(()=> {
