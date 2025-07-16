@@ -27,13 +27,13 @@ app.get("/fetch", async (req, res) => {
 })
 
 app.get("/surf", async (req, res) => {
-    const result = require("./src/lib/crawler/executePython");
-    result(res, "surfdanang");
+    const createCrawler = require("./src/lib/web/createCrawler");
+    createCrawler("surfdanang", res);
 })
 
-app.get("/davas", async (req, res) => {
-    const result = require("./src/lib/crawler/executePython");
-    result(res, "davas");
+app.get("/surf-try", async (req, res) => {
+    const createTryCrawler = require("./src/lib/web/createTryCrawler");
+    createTryCrawler("surfdanang", res);
 })
 
 // const loop = setInterval(()=> {
