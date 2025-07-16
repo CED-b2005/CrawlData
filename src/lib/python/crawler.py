@@ -28,7 +28,7 @@ class Property:
         self.key = key
         self.value = value
     def json(self):
-        return '"name": "{0}", "value": "{1}"'.format(self.key, self.value)
+        return '"{0}" : "{1}"'.format(self.key, self.value)
 
 # total properties for each element
 class Element:
@@ -36,9 +36,9 @@ class Element:
     def __init__(self):
         self.properties = ""
     def addProperty (self, property: str):
-        self.properties += property
+        self.properties += property + ", "
     def json(self):
-        return "{ " + self.properties + " }"  # return json string of properties
+        return "{" + self.properties + "}"  # return json string of properties
     
 # because data from input is String so need to convert to type Array <Query>
 def convertInput(inputData: str):
@@ -67,7 +67,7 @@ driver = webdriver.Chrome(options=options)
 
 # to set data from url (crawl web)
 driver.get(url)
-time.sleep(3.5);
+time.sleep(4);
 
 # data will return
 results = [] # is array contain elements (type string json)
@@ -113,22 +113,5 @@ while True:
 driver.quit()
 
 # print the results as JSON
-print(json.dumps(results, ensure_ascii=False, indent=2))    
-
-
-# // type Query: "{queryName, valueName, byType}"
-# // type Property: {key: valueName, value: valueQuery}
-# // type Element: {properties =}
-#
-# data = [ChildData.json()] // to return array json of chidData {valueName: valueQuery}
-# 
-# childQueries = [ ChildQuery-1, ChildQuery-2, ChildQuery-3, ...] // from input
-# parent = parent // from input 
-#
-# for each childQueries ->
-#   childData = new ChidData (childQuery.valueName)
-#   childData.valueQuery = parent.query(childQuery.queryName)[ByType] // get value
-#   
-#   // now we have childData have key is valueName from input and value from query
-#   
-#   Data.add(chidData.json());
+print(results);
+# print(json.dumps(results, ensure_ascii=False, indent=2))

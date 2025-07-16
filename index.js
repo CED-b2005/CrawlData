@@ -31,11 +31,6 @@ app.get("/surf", async (req, res) => {
     createCrawler("surfdanang", res);
 })
 
-app.get("/surf-try", async (req, res) => {
-    const createTryCrawler = require("./src/lib/web/createTryCrawler");
-    createTryCrawler("surfdanang", res);
-})
-
 // const loop = setInterval(()=> {
 app.listen(8800, ()=> {
     console.log("project: " + process.env.PROJECT);
