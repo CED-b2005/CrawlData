@@ -2,8 +2,10 @@ const fetchData = require("../../funcs/fetchData");
 
 const davas = {
     speackers: (res) => {
+
+
         const action = (data) => {
-            res.send(data);
+            res.json(data);
         }
 
         const body = {
@@ -13,7 +15,7 @@ const davas = {
             lang: "en"
         }
 
-        fetchData.post(action, "https://davas.vc", body, {}, {});
+        fetchData.post(action,  "https://davas.vc/action.php", body, {}, {});
     }
 }
 

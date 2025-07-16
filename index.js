@@ -7,7 +7,7 @@ const fetchData = require("./src/lib/funcs/fetchData");
 
 const app = express ();
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8800;
 
 app.get("/", async (req, res) => {
     const ids = req.query.ids;
@@ -26,15 +26,24 @@ app.get("/fetch", async (req, res) => {
         {},{})
 })
 
-// app.get("/davas", async (req, res) => {
-//     const davas = require("./src/lib/crawler/davas/davas");
-//     davas.speackers(res);
-// })
+app.get("/davas", async (req, res) => {
+    const davas = require("./src/lib/crawler/davas/davas");
+    davas.speackers(res);
+})
 
+app.get("/suft", async (req, res) => {
+    const result = require("./src/lib/crawler/surfdanang/excutePython");
+    result(res);
+})
+
+app.get("/test", async (req, res ) => {
+    const a = `[{"name": "a"}, {"name": "b"}]`
+    res.send(JSON.parse(a));
+})
 
 // const loop = setInterval(()=> {
-app.listen(PORT, ()=> {
+app.listen(8800, ()=> {
     console.log("project: " + process.env.PROJECT);
-    console.log("port: http://localhost:" +  PORT)
+    console.log("port: http://localhost:" +  8800)
 })
 // }, 10000)
