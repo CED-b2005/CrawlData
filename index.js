@@ -26,10 +26,15 @@ app.get("/fetch", async (req, res) => {
         {},{})
 })
 
+// app.get("/davas", async (req, res) => {
+//     const davas = require("./src/lib/crawler/davas/davas");
+//     davas.speackers(res);
+// })
 
-const loop = setInterval(()=> {
-    app.listen(PORT, ()=> {
-        console.log("project: " + process.env.PROJECT);
-        console.log("port: " + PORT)
-    })
-}, 10000)
+
+// const loop = setInterval(()=> {
+app.listen(PORT, ()=> {
+    console.log("project: " + process.env.PROJECT);
+    console.log("port: http://localhost:" +  PORT)
+})
+// }, 10000)
