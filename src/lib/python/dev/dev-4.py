@@ -25,9 +25,15 @@ for d in div:
     if not hasHeading:
         div.remove(d) 
 
+children = []
 for d in div:
-    print(f"🔹 [has headings] Found headings in this div: \n{d}\n")
+    dChildren = d.find_all(recursive=False)
+    for child in dChildren:
+        if child.select("h1, h2, h3, h4, h5, h6"):
+            children.append(child)
 
+for child in children:
+    print(f"🔹 [has headings] Found headings in this div: \n{child}\n")
 
 # success collect all divs with headings
-# dev-4 will improve to better (more specificate what div has headings)
+# dev-5 will find elements with same class or id and count of children
