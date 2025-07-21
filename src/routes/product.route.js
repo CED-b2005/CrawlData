@@ -5,11 +5,11 @@
 const productRouter = (express) => {
     const router = express.Router();
 
-    router.get("/", async (req, res) => {
+    router.get("/", async(req, res) => {
         res.send("show all products")
     })
 
-    router.get("/create", async (req, res) => {
+    router.get("/create", async(req, res) => {
         res.send("Create new product")
     })
 

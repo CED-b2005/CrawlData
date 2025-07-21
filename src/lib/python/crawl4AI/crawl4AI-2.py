@@ -39,15 +39,16 @@ async def crawl_sequential(urls: List[str]):
                 
                 parsed_url = urlparse(url)
                 safe_path = re.sub(r'[^\w\-_.]', '_', parsed_url.netloc + parsed_url.path.strip('/'))
-                filename = f"E:/crawl-webs/{safe_path or 'index'}.html"
+                filename = f"E:/crawl-webs/{safe_path or 'index'}.json"
 
+                print(result.json, "\n\n")
                 # write the result to a file
-                with open(filename, "w", encoding="utf-8") as f:
-                    f.write(result.html)
+            #     with open(filename, "w", encoding="utf-8") as f:
+            #         f.write(str(result.json))
 
-                print(f"Saved result to {filename}")
-            else:
-                print(f"Failed to crawl {url}: {result.error_message}")
+            #     print(f"Saved result to {filename}")
+            # else:
+            #     print(f"Failed to crawl {url}: {result.error_message}")
     finally:
         # After all URLs are processed, close the crawler (and browser session)
         await crawler.close()
