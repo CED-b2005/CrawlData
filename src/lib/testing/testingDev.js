@@ -1,7 +1,7 @@
 const { exec } = require("child_process");
 const testingDev = (req, res) => {
     const py = req.query.py
-    exec(`python ./src/lib/python/dev/${py}.py`, (error, stdout, stderr) => {
+    exec(`python ./src/lib/python/${py}.py`, (error, stdout, stderr) => {
         if (error || stderr) {
             console.error({ error: `exec error: ${error}`, stderr: `stderr: ${stderr}` });
             return;
