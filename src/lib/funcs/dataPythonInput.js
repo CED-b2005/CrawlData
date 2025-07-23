@@ -1,5 +1,5 @@
 class DataPythonInput {
-    parent
+    url
     inputData
     nextPage
 

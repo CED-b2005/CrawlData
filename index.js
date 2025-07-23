@@ -14,7 +14,6 @@ app.get("/", async(req, res) => {
     res.send("Hello World! : " + ids);
 })
 
-app.use("/crawl, ", createRouter(express, "crawl"))
 app.use("/user", createRouter(express, "user"));
 app.use("/products", createRouter(express, "product"));
 
@@ -26,16 +25,6 @@ app.get("/fetch", async(req, res) => {
         "https://api.dictionaryapi.dev/api/v2/entries/en/hello", {}, {})
 })
 
-app.get("/surfdanang/speakers", async(req, res) => {
-    const testCrawler = require("./src/lib/web/testCrawler");
-    testCrawler("surfdanang", res);
-})
-
-app.get("/davas/speakers/", async(req, res) => {
-    const testCrawler = require("./src/lib/web/testCrawler");
-    testCrawler("davas", res);
-})
-
 app.get("/crawl4AI", async(req, res) => {
     const crawl4AI = require("./src/lib/web/crawl4AI")
     const url = req.query.url
@@ -43,7 +32,6 @@ app.get("/crawl4AI", async(req, res) => {
         // res.send("url:" + url + ". type: " + type)
     crawl4AI(url, type, res);
 })
-
 
 app.get("/testing", async(req, res) => {
     const testingDev = require("./src/lib/testing/testingPython")

@@ -1,75 +1,91 @@
-{
-    "speakers": [{
-            "name": "Ms. Nguyen Thi Anh Thi",
-            "avatar": "https://davas.vc/uploads/article/guest-ms-nguyen-thi-anh-thi-1747373312.png",
-            "alt": "Ms. Nguyen Thi Anh Thi",
-            "position": "Deputy Chairman of the Danang City People's Committee"
-        },
-        {
-            "name": "Dr. Le Duc Vien",
-            "avatar": "https://davas.vc/uploads/article/guest-dr-le-duc-vien-1744427646.png",
-            "alt": "Dr. Le Duc Vien",
-            "position": "Director Da Nang Dept. of Science and Technology"
-        },
-        {
-            "name": "Ms. Le Thi Thuc",
-            "avatar": "https://davas.vc/uploads/article/guest-ms-le-thi-thuc-1744427785.png",
-            "alt": "Ms. Le Thi Thuc",
-            "position": "Deputy Director Da Nang Dept. of Science and Technology"
-        },
-        {
-            "name": "Mr. Tran Ngoc Thach",
-            "avatar": "https://davas.vc/uploads/article/guest-mr-tran-ngoc-thach-1748429709.png",
-            "alt": "Mr. Tran Ngoc Thach",
-            "position": "Deputy Director Da Nang Dept. of Science and Technology"
-        },
-        {
-            "name": "Mr. Le Son Phong",
-            "avatar": "https://davas.vc/uploads/article/guest-mr-le-son-phong-1748428899.png",
-            "alt": "Mr. Le Son Phong",
-            "position": "Deputy Director Da Nang Dept. of Science and Technology"
-        },
-        {
-            "name": "Mr. Nguyen Viet Toan",
-            "avatar": "https://davas.vc/uploads/article/guest-mr-nguyen-viet-toan-1744363080.png",
-            "alt": "Mr. Nguyen Viet Toan",
-            "position": "Director of Da Nang Innovation Startup Support Center"
-        },
-        {
-            "name": "Mr. Vo Duc Anh",
-            "avatar": "https://davas.vc/uploads/article/guest-mr-vo-duc-anh-1744427304.png",
-            "alt": "Mr. Vo Duc Anh",
-            "position": "Deputy Director of Danang Innovation Startup Support Center"
-        },
-        {
-            "name": "Mr. James Tan",
-            "avatar": "https://davas.vc/uploads/article/guest-mr-james-tan-1744355946.png",
-            "alt": "Mr. James Tan",
-            "position": "Managing partner at Quest Ventures"
-        },
-        {
-            "name": "Ms. Silvie Eunsun, PARK",
-            "avatar": "https://davas.vc/uploads/article/guest-ms-silvie-eunsun-park-1747986898.png",
-            "alt": "Ms. Silvie Eunsun, PARK",
-            "position": "Senior Associate of Lean Ventures Investment"
-        },
-        {
-            "name": "Ms. Le Hoang Uyen Vy",
-            "avatar": "https://davas.vc/uploads/article/guest-ms-le-hoang-uyen-vy-1744174104.png",
-            "alt": "Ms. Le Hoang Uyen Vy",
-            "position": "Co-founder & General Partner DO Ventures"
-        },
-        {
-            "name": "Ms. Hoang Thi Kim Dung",
-            "avatar": "https://davas.vc/uploads/article/guest-ms-hoang-thi-kim-dung-1744360910.png",
-            "alt": "Ms. Hoang Thi Kim Dung",
-            "position": "Country Director of Genesia Ventures Vietnam"
-        },
-        {
-            "name": "Mr. Shigeki Kanemoto",
-            "avatar": "https://davas.vc/uploads/article/guest-mr-shigeki-kanemoto-1744430474.png",
-            "alt": "Mr. Shigeki Kanemoto",
-            "position": "Daiwa Corporate Investment Co., Ltd."
-        }
-    ]
-}
+[{
+        "time": "08h00 - 11h30",
+        "title": "Phiên khai mạc",
+        "place": "Địa điểm: Hội trường Nguyệt Quế, Tầng 3, Nhà khách Quốc Hội tại Đà Nẵng, số 192 Võ Nguyên Giáp, phường An Hải, thành phố Đà Nẵng.",
+        "contentsList": [{
+                "timeLine": "08h00 - 08h15",
+                "contents": "Đón khách"
+            },
+            {
+                "timeLine": "08h15 - 08h30",
+                "contents": "Đại biểu tham quan gian hàng triển lãm"
+            },
+            {
+                "timeLine": "08h30 - 08h45",
+                "contents": "Tuyên bố lý do, giới thiệu đại biểu"
+            },
+            {
+                "timeLine": "08h45 - 09h00",
+                "contents": "Văn nghệ chào mừng"
+            },
+            {
+                "timeLine": "09h00 - 09h10",
+                "contents": "Trình chiếu video hệ sinh thái khởi nghiệp"
+            },
+            {
+                "timeLine": "09h10 - 09h20",
+                "contents": " Phát biểu khai mạc của Lãnh đạo UBND TP. Đà Nẵng. Phát biểu chào mừng của Lãnh đạo Bộ Khoa học và Công nghệ. "
+            },
+            {
+                "timeLine": "09h20 - 09h30",
+                "contents": "Công bố và trao giải cho các đội đạt giải Cuộc thi Khởi nghiệp đổi mới sáng tạo thành phố Đà Nẵng"
+            },
+            {
+                "timeLine": "09h30 - 09h40",
+                "contents": " - Lễ ký kết Biên bản ghi nhớ hợp tác - Công bố hợp tác đầu tư khởi nghiệp đổi mới sáng tạo. "
+            },
+            {
+                "timeLine": "09h40 - 09h50",
+                "contents": "Cảm ơn đối tác"
+            },
+            {
+                "timeLine": "10h00 - 10h30",
+                "contents": " Giao lưu với các chuyên gia và nhà sáng lập trong nước và quốc tế - Keynote 1: Chính sách và chương trình hỗ trợ khởi nghiệp của Trung tâm Kinh tế sáng tạo và Đổi mới sáng tạo Ulsan, Ông Hee-Chul Cho Giám đốc bộ phận xây dựng kế hoạch Ulsan Center for Creative Economy & Innovation (Ulsan CCEI ), Korea - Keynote 2: Chia sẻ về chương trình ươm tạo, web3, Bà Quinn Giang - Founder of Suci Blockchain Hub "
+            }
+        ]
+    },
+    {
+        "time": "13h30 - 16h30",
+        "title": "Diễn đàn Kết nối đầu tư đổi mới sáng tạo quốc tế “Blockchain và tài sản số: Đổi mới sáng tạo trong chuyển đổi số đô thị và phát triển kinh tế số tại Đà Nẵng”",
+        "place": "Địa điểm: Hội trường Nguyệt Quế, Tầng 3, Nhà khách Quốc Hội tại Đà Nẵng, số 192 Võ Nguyên Giáp, phường An Hải, thành phố Đà Nẵng.",
+        "contentsList": [{
+                "timeLine": "13h30 - 13h35",
+                "contents": "Đón khách"
+            },
+            {
+                "timeLine": "13h35 - 13h45",
+                "contents": " Tham luận: Xu hướng toàn cầu về blockchain, token hóa tài sản và tác động đến quá trình chuyển đổi số đô thị - doanh nghiệp tại Đà Nẵng. Diễn giả: Ông Trần Huyền Dinh - Chủ nhiệm Uỷ ban Ứng dụng Fintech Hiệp hội Blockchain Việt Nam "
+            },
+            {
+                "timeLine": "13h45 - 13h55",
+                "contents": " Tham luận: Nền tảng số thúc đẩy Công nghệ tài chính Diễn giả: Ông Lê Hòa Nhã - Tổng giám đốc Công ty CP đầu tư HVA "
+            },
+            {
+                "timeLine": "13h55 - 14h15",
+                "contents": "Giải lao"
+            }
+        ]
+    },
+    {
+        "time": "16h30 - 17h30",
+        "title": "Bế mạc",
+        "place": "Địa điểm: Hội trường Nguyệt Quế, Tầng 3, Nhà khách Quốc Hội tại Đà Nẵng, số 192 Võ Nguyên Giáp, phường An Hải, thành phố Đà Nẵng.",
+        "contentsList": [{
+                "timeLine": "16h30 - 16h50",
+                "contents": "Đón khách"
+            },
+            {
+                "timeLine": "16h50 - 17h00",
+                "contents": "Tuyên bố lý do, giới thiệu đại biểu"
+            },
+            {
+                "timeLine": "17h00 - 17h10",
+                "contents": "Trình chiếu video tổng kết Ngày hội"
+            },
+            {
+                "timeLine": "17h10 - 17h30",
+                "contents": "Phát biểu tổng kết, bế mạc"
+            }
+        ]
+    }
+]
