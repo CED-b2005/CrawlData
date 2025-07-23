@@ -1,4 +1,4 @@
-import sys, json
+import sys, json, requests
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 
@@ -15,6 +15,16 @@ def use_browser ():
         html = page.content()
         page.close()
         return html
+
+# def convert(url):
+#     try:
+#         response = requests.get(url)
+#         if response.status_code == 200:
+#             return response.content
+#         else:
+#             return False
+#     except:
+#         return False
 
 def startups (startupList:str, product_img:str, company_logo:str, project_name:str, description:str, end:bool):
     startup = '{' + f'"product_img": "{product_img}"' + ',' + f'"company_logo": "{company_logo}"' + ',' + f'"project_name": "{project_name}"' + ',' + f'"description": "{description}"' + '}'
