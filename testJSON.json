@@ -1,0 +1,75 @@
+{
+    "speakers": [{
+            "name": "Ms. Nguyen Thi Anh Thi",
+            "avatar": "https://davas.vc/uploads/article/guest-ms-nguyen-thi-anh-thi-1747373312.png",
+            "alt": "Ms. Nguyen Thi Anh Thi",
+            "position": "Deputy Chairman of the Danang City People's Committee"
+        },
+        {
+            "name": "Dr. Le Duc Vien",
+            "avatar": "https://davas.vc/uploads/article/guest-dr-le-duc-vien-1744427646.png",
+            "alt": "Dr. Le Duc Vien",
+            "position": "Director Da Nang Dept. of Science and Technology"
+        },
+        {
+            "name": "Ms. Le Thi Thuc",
+            "avatar": "https://davas.vc/uploads/article/guest-ms-le-thi-thuc-1744427785.png",
+            "alt": "Ms. Le Thi Thuc",
+            "position": "Deputy Director Da Nang Dept. of Science and Technology"
+        },
+        {
+            "name": "Mr. Tran Ngoc Thach",
+            "avatar": "https://davas.vc/uploads/article/guest-mr-tran-ngoc-thach-1748429709.png",
+            "alt": "Mr. Tran Ngoc Thach",
+            "position": "Deputy Director Da Nang Dept. of Science and Technology"
+        },
+        {
+            "name": "Mr. Le Son Phong",
+            "avatar": "https://davas.vc/uploads/article/guest-mr-le-son-phong-1748428899.png",
+            "alt": "Mr. Le Son Phong",
+            "position": "Deputy Director Da Nang Dept. of Science and Technology"
+        },
+        {
+            "name": "Mr. Nguyen Viet Toan",
+            "avatar": "https://davas.vc/uploads/article/guest-mr-nguyen-viet-toan-1744363080.png",
+            "alt": "Mr. Nguyen Viet Toan",
+            "position": "Director of Da Nang Innovation Startup Support Center"
+        },
+        {
+            "name": "Mr. Vo Duc Anh",
+            "avatar": "https://davas.vc/uploads/article/guest-mr-vo-duc-anh-1744427304.png",
+            "alt": "Mr. Vo Duc Anh",
+            "position": "Deputy Director of Danang Innovation Startup Support Center"
+        },
+        {
+            "name": "Mr. James Tan",
+            "avatar": "https://davas.vc/uploads/article/guest-mr-james-tan-1744355946.png",
+            "alt": "Mr. James Tan",
+            "position": "Managing partner at Quest Ventures"
+        },
+        {
+            "name": "Ms. Silvie Eunsun, PARK",
+            "avatar": "https://davas.vc/uploads/article/guest-ms-silvie-eunsun-park-1747986898.png",
+            "alt": "Ms. Silvie Eunsun, PARK",
+            "position": "Senior Associate of Lean Ventures Investment"
+        },
+        {
+            "name": "Ms. Le Hoang Uyen Vy",
+            "avatar": "https://davas.vc/uploads/article/guest-ms-le-hoang-uyen-vy-1744174104.png",
+            "alt": "Ms. Le Hoang Uyen Vy",
+            "position": "Co-founder & General Partner DO Ventures"
+        },
+        {
+            "name": "Ms. Hoang Thi Kim Dung",
+            "avatar": "https://davas.vc/uploads/article/guest-ms-hoang-thi-kim-dung-1744360910.png",
+            "alt": "Ms. Hoang Thi Kim Dung",
+            "position": "Country Director of Genesia Ventures Vietnam"
+        },
+        {
+            "name": "Mr. Shigeki Kanemoto",
+            "avatar": "https://davas.vc/uploads/article/guest-mr-shigeki-kanemoto-1744430474.png",
+            "alt": "Mr. Shigeki Kanemoto",
+            "position": "Daiwa Corporate Investment Co., Ltd."
+        }
+    ]
+}
