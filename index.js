@@ -46,9 +46,10 @@ app.get("/crawl4AI", async(req, res) => {
 
 
 app.get("/testing", async(req, res) => {
-    const testingDev = require("./src/lib/testing/testingDev")
+    const testingDev = require("./src/lib/testing/testingPython")
     testingDev(req, res);
 })
+
 
 // const loop = setInterval(()=> {
 app.listen(8800, () => {
