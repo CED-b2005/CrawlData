@@ -52,4 +52,4 @@ for index in range(len(targets)):
     position = target.select_one("p").get_text().strip()
     speakerList = speakers(speakerList, name, img, position, index>=len(targets))
 
-print(speakerList)
+print('[' + speakerList + ']')
