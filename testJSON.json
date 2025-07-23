@@ -1,311 +1,157 @@
 [{
-        "name": "Ông Hồ Quang Bửu",
-        "img": "https://surfdanang.zone/uploads/article/ong-ho-quang-buu-1751881941.png",
-        "position": "Thành uỷ viên, Phó Chủ tịch UBND thành phố Đà Nẵng"
+        "product_img": "https://surfdanang.zone/uploads/article/news-loc-ai-1750316179.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/tritopweb-1750316221.png",
+        "project_name": "Lộc AI",
+        "description": "Dự án Lộc AI hướng đến mục tiêu xây dựng một nền tảng trợ lý thông minh toàn diện cho giáo dục đồng thời quan tâm sâu sắc đến sức khỏe tinh thần của người học. Thông qua việc ứng dụng công nghệ Trí tuệ nhân tạo (AI), Lộc AI mang đến giải pháp “học không áp lực” và “tâm lý vững vàng” cho học sinh – sinh viên, giáo viên và phụ huynh."
     },
     {
-        "name": "Ông Nguyễn Thanh Hồng",
-        "img": "https://surfdanang.zone/uploads/article/ong-nguyen-thanh-hong-giam-doc-so-khoa-hoc-va-cong-nghe-thanh-pho-da-nang-1751879775.png",
-        "position": "Thành uỷ viên, Giám đốc Sở Khoa học và Công nghệ thành phố Đà Nẵng"
+        "product_img": "https://surfdanang.zone/uploads/article/news-fastdo-1750316026.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/fastdo-1750389836.png",
+        "project_name": "Fastdo",
+        "description": "Fastdo ra đời với sứ mệnh mang đến một bộ giải pháp phần mềm quản trị công việc dễ tiếp cận về cả giá và tính năng, giúp SMEs kết nối các công việc, thúc đẩy tốc độ thực thi 20% công việc quan trọng nhất để tạo nên 80% doanh thu."
     },
     {
-        "name": "Ông Phạm Ngọc Sinh",
-        "img": "https://surfdanang.zone/uploads/article/ong-pham-ngoc-sinh-1753247337.png",
-        "position": "Phó Giám đốc Sở Khoa học và Công nghệ thành phố Đà Nẵng"
+        "product_img": "https://surfdanang.zone/uploads/article/news-gbalo-1750406485.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/gbalo-1750406572.png",
+        "project_name": "Gbalo",
+        "description": "Gbalo là nền tảng du lịch thông minh sử dụng công nghệ AI để xây dựng những chương trình du lịch hoàn toàn phù hợp với nhu cầu và cá nhân hóa tuyệt đối theo nhu cầu của khách du lịch khi ghé thăm và tương tác trên nền tảng."
     },
     {
-        "name": "Ông Trần Ngọc Thạch",
-        "img": "https://surfdanang.zone/uploads/article/ong-tran-ngoc-thach-1748429732.png",
-        "position": "Phó Giám đốc Sở Khoa học và Công nghệ thành phố Đà Nẵng"
+        "product_img": "https://surfdanang.zone/uploads/article/news-genz-mental-health-1750641942.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/genz-mental-health-1750641968.png",
+        "project_name": "GenZ Mental Health",
+        "description": "Dự án 'GenZ Mental Health' được phát triển nhằm giải quyết những vấn đề sức khỏe tâm thần đang ngày càng gia tăng trong thế hệ Gen Z tại Việt Nam, bao gồm căng thẳng, lo âu và trầm cảm"
     },
     {
-        "name": "Bà Lê Thị Thục",
-        "img": "https://surfdanang.zone/uploads/article/ba-le-thi-thuc-1744427818.png",
-        "position": "Phó Giám đốc Sở Khoa học và Công nghệ thành phố Đà Nẵng"
+        "product_img": "https://surfdanang.zone/uploads/article/news-tinh-dau-thao-duoc-go-noi-1750642452.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/tinh-dau-thao-duoc-1750642257.png",
+        "project_name": "Tinh dầu thảo dược Gò Nổi",
+        "description": "Dự án Tinh dầu thảo dược Gò Nổi ra đời với mong muốn khai thác, gìn giữ và phát triển giá trị của các loài thảo dược bản địa Quảng Nam, đặc biệt là vùng đất Gò Nổi – nơi được thiên nhiên ưu đãi khí hậu, thổ nhưỡng thích hợp cho cây cỏ dược liệu phát triển xanh tốt quanh năm."
     },
     {
-        "name": "Bà Phan Thị Á Kim",
-        "img": "https://surfdanang.zone/uploads/article/ba-phan-thi-a-kim-1751942955.png",
-        "position": "Phó Giám đốc Sở Khoa học và Công nghệ thành phố Đà Nẵng"
+        "product_img": "https://surfdanang.zone/uploads/article/news-rom-ra-eco-bao-bi-sinh-hoc-1750662211.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/rom-ra-eco-bao-bi-sinh-hoc-1750662275.png",
+        "project_name": "Rơm rả Eco - Bao bì sinh học",
+        "description": "Xuất phát từ thực trạng 3.2 triệu tấn rác thải nhựa thải ra tại Việt Nam, khoảng 47 triệu tấn rơm rạ bị đốt bỏ trong khi đó tiêu dùng xanh, phát triển bền vững đang là xu thế hàng đầu. Lấy tiêu chuẩn ESG làm trọng tâm, Rơm rả Eco - Bao bì sinh học ra đời."
     },
     {
-        "name": "Bà Phạm Thị Ngọc Quyên",
-        "img": "https://surfdanang.zone/uploads/article/ba-pham-thi-ngoc-quyen-1751943075.png",
-        "position": "Phó Giám đốc Sở Khoa học và Công nghệ thành phố Đà Nẵng"
+        "product_img": "https://surfdanang.zone/uploads/article/news-giai-phap-thi-cong-lap-dat-he-thong-thu-gom-rac-noi-ket-hop-tach-vang-dau-t-1750662488.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/giai-phap-thi-cong-lap-dat-he-thong-thu-gom-rac-noi-ket-hop-tach-vang-dau-t-1750662506.png",
+        "project_name": "Giải pháp, thi công lắp đặt hệ thống thu gom rác nổi kết hợp tách váng dầu trên bề mặt nước",
+        "description": "Dự án cung cấp và lắp đặt hệ thống thu gom rác nổi kết hợp tách váng dầu trên bề mặt nước nhằm xử lý hiệu quả các loại rác thải và dầu mỡ nổi trong các hồ, kênh, ao, bể xử lý nước bề mặt hoặc khu vực mặt nước công nghiệp, đô thị."
     },
     {
-        "name": "Ông Lê Sơn Phong",
-        "img": "https://surfdanang.zone/uploads/article/ong-le-son-phong-1748428970.png",
-        "position": "Phó Giám đốc Sở Khoa học và Công nghệ thành phố Đà Nẵng"
+        "product_img": "https://surfdanang.zone/uploads/article/news-smartfinedu-nen-tang-giao-duc-tai-chinh-toan-dien-tich-hop-tri-tue-nhan-tao-1750662689.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/smartfinedu-1750662682.png",
+        "project_name": "SmartFinEdu– Nền tảng giáo dục tài chính toàn diện tích hợp trí tuệ nhân tạo (AI)",
+        "description": ""
     },
     {
-        "name": "Ông Nguyễn Viết Toàn",
-        "img": "https://surfdanang.zone/uploads/article/mr-nguyen-viet-toan-1744363080.png",
-        "position": "Giám đốc Trung tâm Hỗ trợ khởi nghiệp đổi mới sáng tạo Đà Nẵng"
+        "product_img": "https://surfdanang.zone/uploads/article/news-tiktour-1750739219.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/tiktour-1750739150.png",
+        "project_name": "Tiktour",
+        "description": "TikTour.vn là nền tảng công nghệ chuyên cung cấp dịch vụ bán vé trực tuyến cho các điểm đến du lịch tại Việt Nam như: khu du lịch, bảo tàng, show biểu diễn, nhà hàng, spa, tour ngắn ngày, thuê xe,… Đồng thời, TikTour còn phát triển hệ thống tiếp thị liên kết (affiliate marketing), kết nối các đơn vị cung cấp dịch vụ du lịch với đội ngũ Cộng tác viên, Travel Blogger, KOLs và Influencer để quảng bá và gia tăng doanh thu một cách hiệu quả."
     },
     {
-        "name": "Ông Võ Đức Anh",
-        "img": "https://surfdanang.zone/uploads/article/ong-vo-duc-anh-1744427339.png",
-        "position": "Phó Giám đốc Trung tâm Hỗ trợ khởi nghiệp đổi mới sáng tạo Đà Nẵng"
+        "product_img": "https://surfdanang.zone/uploads/article/news-enfue-1-ats-of-vietnam-powered-with-ai-1750739440.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/enfue-1750739366.png",
+        "project_name": "enfue - #1 ATS of Vietnam powered with AI",
+        "description": "Enfue là nền tảng tuyển dụng chuyên nghiệp, ứng dụng trí tuệ nhân tạo (AI) nhằm tối ưu hóa toàn bộ quy trình tuyển dụng cho doanh nghiệp tại Việt Nam. Với tầm nhìn trở thành hệ thống ATS (Applicant Tracking System) số 1 tại Việt Nam vào năm 2026, enfue đang giúp các doanh nghiệp tìm kiếm nhân tài phù hợp một cách thông minh và hiệu quả hơn, đồng thời đồng hành cùng người tìm việc trên hành trình xây dựng sự nghiệp bền vững."
     },
     {
-        "name": "Ông James Tan",
-        "img": "https://surfdanang.zone/uploads/article/mr-james-tan-1744355946.png",
-        "position": "Quản lý đối tác Quest Ventures"
+        "product_img": "https://surfdanang.zone/uploads/article/news-mekongai-giai-phap-ai-tuy-bien-cho-sme-1750739690.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/mekong-ai-1750739598.png",
+        "project_name": "MekongAI - Giải pháp AI tùy biến cho SME",
+        "description": "MekongAI cung cấp các giải pháp AI tùy biến theo ngành nghề và bài toán cụ thể, nhằm hỗ trợ doanh nghiệp nhỏ và vừa (SME) tại Việt Nam nâng cao hiệu quả quản trị, giảm tải vận hành và tối ưu nguồn lực."
     },
     {
-        "name": "Ông Nguyễn Quang Phước",
-        "img": "https://surfdanang.zone/uploads/article/ong-nguyen-quang-phuoc-1751011844.png",
-        "position": "Chủ tịch Mạng lưới Đổi mới sáng tạo Việt Nam tại Hàn Quốc"
+        "product_img": "https://surfdanang.zone/uploads/article/news-local-life-asia-nen-tang-du-lich-cong-dong-ben-vung-1750924246.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/locallife-asia-1750924286.png",
+        "project_name": "Local Life Asia - Nền tảng du lịch cộng đồng bền vững",
+        "description": "Cuộc sống hiện đại ngày càng hối hả, trẻ nhỏ thì cứ dán mắt vào màn hình điện thoại, ít có cơ hội vui chơi ngoài trời, thiếu đi những kỷ niệm tuổi thơ gắn liền với đồng quê. Người trẻ thì đối mặt với áp lực công việc, nỗi lo thất nghiệp ngày càng tăng, khiến họ khó tìm thấy sự bình yên và ý nghĩa."
     },
     {
-        "name": "Ông Cathal Donnellan",
-        "img": "https://surfdanang.zone/uploads/article/ong-cathal-donnellan-1751428444.png",
-        "position": "Giám đốc ICP Việt Nam"
+        "product_img": "https://surfdanang.zone/uploads/article/news-ai-tu-dong-ban-hang-thong-minh-ai-smart-sales-1751008694.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/bluetech-1751008614.png",
+        "project_name": "AI Tự Động Bán Hàng Thông Minh (AI Smart Sales)",
+        "description": "Ngành bán lẻ và dịch vụ đang đối mặt với những thách thức lớn trong bối cảnh chuyển đổi số, bao gồm chi phí vận hành cao (đặc biệt là nhân công), giờ giấc hoạt động hạn chế, và khả năng cá nhân hóa trải nghiệm khách hàng chưa cao"
     },
     {
-        "name": "Ông Eric Alexandre",
-        "img": "https://surfdanang.zone/uploads/article/ong-eric-alexandre-1751428562.png",
-        "position": "Giám đốc điều hành Native Capital"
+        "product_img": "https://surfdanang.zone/uploads/article/news-vertex-indexing-layer-and-data-marketplace-1751277078.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/vertex-1751277095.png",
+        "project_name": "Vertex - Indexing layer and Data marketplace",
+        "description": "Vertex là nền tảng indexing không cần máy chủ (serverless) và marketplace dữ liệu dành cho hệ sinh thái Solana. Dự án giúp các lập trình viên dễ dàng thu thập và xử lý dữ liệu từ các tài khoản PDA phức tạp trên Solana mà không cần phải tự xây dựng hạ tầng, lắng nghe sự kiện hay parse dữ liệu thủ công."
     },
     {
-        "name": "Ông Jeffrey Tchui",
-        "img": "https://surfdanang.zone/uploads/article/ong-jeffrey-tchui-1751428663.png",
-        "position": "Quản lý Hệ sinh thái APAC, Hedera Foundation"
+        "product_img": "https://surfdanang.zone/uploads/article/news-lotusease-may-tach-vo-hat-sen-tuoi-ban-tu-dong-1751277411.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/lotusease-1751277358.png",
+        "project_name": "LotusEase - Máy tách vỏ hạt Sen tươi bán tự động",
+        "description": "Ở nhiều vùng trồng sen của Việt Nam, hạt sen là kế sinh nhai của hàng nghìn hộ nông dân. Tuy nhiên, công đoạn tưởng chừng đơn giản – tách vỏ hạt sen tươi – lại đang là nút thắt lớn trong quá trình sơ chế. Làm bằng tay thì chậm, dễ gãy hạt, tốn nhân công. Trong khi đó, các loại máy móc hiện nay chủ yếu dành cho hạt khô, giá thành cao và không phù hợp với quy mô sản xuất vừa và nhỏ."
     },
     {
-        "name": "Ông Jonah Lau",
-        "img": "https://surfdanang.zone/uploads/article/ong-jonah-lau-1751428790.png",
-        "position": "Trưởng phòng Danh mục đầu tư và ươm tạo Animoca Brands"
+        "product_img": "https://surfdanang.zone/uploads/article/news-cho-ca-phe-1751873010.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/cho-ca-phe-1751872905.png",
+        "project_name": "Chợ Cà Phê",
+        "description": "Chợ Cà Phê là nền tảng công nghệ đầu tiên tại Việt Nam chuyên biệt cho ngành cà phê, kết nối toàn bộ hệ sinh thái từ nông dân – nhà rang xay – quán cà phê – người tiêu dùng."
     },
     {
-        "name": "Bà Quinn Giang",
-        "img": "https://surfdanang.zone/uploads/article/ba-quinn-giang-1751428880.png",
-        "position": "Nhà sáng lập Suci Blockchain Hub - EthVietnam"
+        "product_img": "https://surfdanang.zone/uploads/article/news-cho-ca-phe-1751962369.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/cho-ca-phe-1751872905.png",
+        "project_name": "Chợ Cà Phê",
+        "description": "Chợ Cà Phê là nền tảng công nghệ đầu tiên tại Việt Nam chuyên biệt cho ngành cà phê, kết nối toàn bộ hệ sinh thái từ nông dân – nhà rang xay – quán cà phê – người tiêu dùng."
     },
     {
-        "name": "Ông Sasha",
-        "img": "https://surfdanang.zone/uploads/article/ong-sasha-1751429084.png",
-        "position": "Nhà sáng lập Arcanum Ventures"
+        "product_img": "https://surfdanang.zone/uploads/article/news-rally-ai-customer-experience-ai-1751962487.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/rally-ai-1751962512.png",
+        "project_name": "Rally AI Customer Experience AI",
+        "description": "Rally là một nền tảng SaaS đột phá đang thay đổi mô hình nghiên cứu thị trường truyền thống bằng giải pháp mua sắm bí ẩn theo yêu cầu được hỗ trợ bởi AI."
     },
     {
-        "name": "Ông Tom Ngô",
-        "img": "https://surfdanang.zone/uploads/article/ong-tom-ngo-1751429141.png",
-        "position": "Giám đốc điều hành Metis Foundation"
+        "product_img": "https://surfdanang.zone/uploads/article/news-enfue-1-ats-of-vietnam-powered-with-ai-1751962959.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/enfue-1750739366.png",
+        "project_name": "enfue - #1 ATS of Vietnam powered with AI",
+        "description": "Enfue là nền tảng tuyển dụng chuyên nghiệp, ứng dụng trí tuệ nhân tạo (AI) nhằm tối ưu hóa toàn bộ quy trình tuyển dụng cho doanh nghiệp tại Việt Nam. Với tầm nhìn trở thành hệ thống ATS (Applicant Tracking System) số 1 tại Việt Nam vào năm 2026, enfue đang giúp các doanh nghiệp tìm kiếm nhân tài phù hợp một cách thông minh và hiệu quả hơn, đồng thời đồng hành cùng người tìm việc trên hành trình xây dựng sự nghiệp bền vững."
     },
     {
-        "name": "Ông Shan Han",
-        "img": "https://surfdanang.zone/uploads/article/ong-shan-han-1751429219.png",
-        "position": "Chuyên gia cao cấp Open Campus"
+        "product_img": "https://surfdanang.zone/uploads/article/news-local-life-asia-nen-tang-du-lich-cong-dong-ben-vung-1751963118.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/locallife-asia-1750924286.png",
+        "project_name": "Local Life Asia - Nền tảng du lịch cộng đồng bền vững",
+        "description": "Cuộc sống hiện đại ngày càng hối hả, trẻ nhỏ thì cứ dán mắt vào màn hình điện thoại, ít có cơ hội vui chơi ngoài trời, thiếu đi những kỷ niệm tuổi thơ gắn liền với đồng quê. Người trẻ thì đối mặt với áp lực công việc, nỗi lo thất nghiệp ngày càng tăng, khiến họ khó tìm thấy sự bình yên và ý nghĩa."
     },
     {
-        "name": "Bà Alexis Low",
-        "img": "https://surfdanang.zone/uploads/article/ba-alexis-low-1751429330.png",
-        "position": "Quản lý khu vực APAC, Lisk Foundation"
+        "product_img": "https://surfdanang.zone/uploads/article/news-tiktour-1751963574.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/tiktour-1750739150.png",
+        "project_name": "Tiktour",
+        "description": "TikTour.vn là nền tảng công nghệ chuyên cung cấp dịch vụ bán vé trực tuyến cho các điểm đến du lịch tại Việt Nam như: khu du lịch, bảo tàng, show biểu diễn, nhà hàng, spa, tour ngắn ngày, thuê xe,… Đồng thời, TikTour còn phát triển hệ thống tiếp thị liên kết (affiliate marketing), kết nối các đơn vị cung cấp dịch vụ du lịch với đội ngũ Cộng tác viên, Travel Blogger, KOLs và Influencer để quảng bá và gia tăng doanh thu một cách hiệu quả."
     },
     {
-        "name": "Bà Anastasia Kalinina",
-        "img": "https://surfdanang.zone/uploads/article/ba-anastasia-kalinina-1751429411.png",
-        "position": "Nhà sáng lập reState Foundation"
+        "product_img": "https://surfdanang.zone/uploads/article/news-lotusease-may-tach-vo-hat-sen-tuoi-ban-tu-dong-1751963620.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/lotusease-1751277358.png",
+        "project_name": "LotusEase - Máy tách vỏ hạt Sen tươi bán tự động",
+        "description": "Ở nhiều vùng trồng sen của Việt Nam, hạt sen là kế sinh nhai của hàng nghìn hộ nông dân. Tuy nhiên, công đoạn tưởng chừng đơn giản – tách vỏ hạt sen tươi – lại đang là nút thắt lớn trong quá trình sơ chế. Làm bằng tay thì chậm, dễ gãy hạt, tốn nhân công. Trong khi đó, các loại máy móc hiện nay chủ yếu dành cho hạt khô, giá thành cao và không phù hợp với quy mô sản xuất vừa và nhỏ."
     },
     {
-        "name": "Ông Aaron Everhart",
-        "img": "https://surfdanang.zone/uploads/article/mr-aaron-everhart-1744350788.png",
-        "position": "Co - Founder Draper Startup House Vietnam"
+        "product_img": "https://surfdanang.zone/uploads/article/news-nen-tang-giao-tiep-da-kenh-cs-etelecom-cpaas-1751967598.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/etelecom-1751967624.png",
+        "project_name": "Nền tảng Giao tiếp Đa kênh CS eTelecom / CPaaS",
+        "description": "Nền tảng Giao tiếp Đa kênh CS eTelecom / CPaaS (Communications Platform as a Service) kết nối các Nhà mạng & Zalo, giúp Doanh nghiệp triển khai Zalo Official Account (OA) nhanh chóng bao gồm OA Chat, ZNS, ZCC & Zalo Mini App."
     },
     {
-        "name": "Mr. Hee-chul Cho",
-        "img": "https://surfdanang.zone/uploads/article/mr-hee-chul-cho-1751011088.png",
-        "position": "Giám đốc Chiến lược - Trung tâm đổi mới Sáng tạo và Kinh tế Sáng tạo Ulsan, Hàn Quốc"
+        "product_img": "https://surfdanang.zone/uploads/article/news-aivos-virtual-human-ai-automation-tools-1752024102.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/aivos-1752024154.png",
+        "project_name": "AIVOS - Virtual Human & AI Automation Tools",
+        "description": "AIVOS là công ty công nghệ tiên phong tại Việt Nam chuyên phát triển các công cụ AI tích hợp tự động hoá nhằm giúp doanh nghiệp tối ưu quy trình, cắt giảm chi phí và tăng trưởng nhanh chóng."
     },
     {
-        "name": "Ông Hyun-jae Lee",
-        "img": "https://surfdanang.zone/uploads/article/ong-hyun-jae-lee-1751011777.png",
-        "position": "Chairman of Policy Committee (KSF) CEO (Yesfuture)-  Korea Startup Forum (KSF) Yesfuture"
+        "product_img": "https://surfdanang.zone/uploads/article/news-viconext-nen-tang-ket-noi-thong-minh-ung-dung-nfc-ai-1752024471.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/nfc-card-1752024380.png",
+        "project_name": "VicoNext - Nền tảng kết nối thông minh ứng dụng NFC & AI",
+        "description": "Dự án VicoNext - Nền tảng kết nối thông minh ứng dụng NFC & AI là một nền tảng công nghệ thông minh ứng dụng NFC (Near Field Communication) kết hợp AI (trí tuệ nhân tạo), nhằm xây dựng hệ sinh thái hỗ trợ doanh nghiệp và cá nhân trong việc kết nối, quảng bá, giao tiếp, quản lý thông tin số một cách hiệu quả, tiện lợi và hiện đại."
     },
     {
-        "name": "Ông Võ Đức Thắng",
-        "img": "https://surfdanang.zone/uploads/article/ong-vo-duc-thang-1751592384.png",
-        "position": "Chủ tịch Mạng lưới Đổi mới sáng tạo và Trí thức Việt Nam tại Đài Loan"
-    },
-    {
-        "name": "Ông Neo Gim Kian",
-        "img": "https://surfdanang.zone/uploads/article/ong-neo-gim-kian-1752135434.png",
-        "position": "Giám đốc Văn phòng phát triển doanh nghiệp Republic Polytechnic"
-    },
-    {
-        "name": "Ông Eric Vương",
-        "img": "https://surfdanang.zone/uploads/article/ong-eric-vuong-1744680197.png",
-        "position": "Chủ tịch Hội đồng Quản trị Công ty Cổ phần Đầu tư HVA và TGĐ Quỹ đầu tư FUNGO"
-    },
-    {
-        "name": "Ông Ankur Goel",
-        "img": "https://surfdanang.zone/uploads/article/ong-ankur-goel-1745895062.png",
-        "position": "Đối tác sáng lập Skwerup Capital Partners"
-    },
-    {
-        "name": "Ông Eli David Rokah",
-        "img": "https://surfdanang.zone/uploads/article/ong-eli-david-rokah-1753062680.png",
-        "position": "CEO of Startup Blink"
-    },
-    {
-        "name": "Bà Lê Mỹ Nga",
-        "img": "https://surfdanang.zone/uploads/article/mr-aaron-everhart-1744174129.png",
-        "position": "Chủ tịch Weangels Capital"
-    },
-    {
-        "name": "Ông Lý Đình Quân",
-        "img": "https://surfdanang.zone/uploads/article/mr-ly-dinh-quan-1744358053.png",
-        "position": "Giám đốc điều hành Trung tâm Ươm tạo khởi nghiệp Sông Hàn (SHi)"
-    },
-    {
-        "name": "Ông Nguyễn Văn Chương",
-        "img": "https://surfdanang.zone/uploads/article/mr-nguyen-van-chuong-1744174146.png",
-        "position": "Quản lý Chương trình Swiss EP tại Đà Nẵng"
-    },
-    {
-        "name": "Bà Trần Hạnh Trang",
-        "img": "https://surfdanang.zone/uploads/article/ba-tran-hanh-trang-1744433471.png",
-        "position": "Founder & CEO Enosta Group"
-    },
-    {
-        "name": "Ông Vũ Tiến Dũng",
-        "img": "https://surfdanang.zone/uploads/article/ong-vu-tien-dung-1744431443.png",
-        "position": "GĐ -Quỹ đầu tư phát triển FundGo Đà Nẵng"
-    },
-    {
-        "name": "Bà Nguyễn Thị Minh Ngọc",
-        "img": "https://surfdanang.zone/uploads/article/ms-nguyen-thi-minh-ngoc-1744361337.png",
-        "position": "Phó giám đốc điều hành Vườn ươm doanh nghiệp Đà Nẵng (DNES)"
-    },
-    {
-        "name": "Bà Võ Thị Kim Oanh",
-        "img": "https://surfdanang.zone/uploads/article/ts-vo-thi-kim-oanh-1744361519.png",
-        "position": "Chủ nhiệm bộ môn kinh doanh, Swinburne Vietnam Danang"
-    },
-    {
-        "name": "Bà Hà Khánh Linh",
-        "img": "https://surfdanang.zone/uploads/article/ba-ha-khanh-linh-1744521321.png",
-        "position": "Nhà phân tích cấp cao, Quest Ventures"
-    },
-    {
-        "name": "Bà Ellie Nguyễn",
-        "img": "https://surfdanang.zone/uploads/article/ba-ellie-nguyen-1744522897.png",
-        "position": "Chuyên gia phân tích, Quest Ventures"
-    },
-    {
-        "name": "Bà Novie Le",
-        "img": "https://surfdanang.zone/uploads/article/ba-novie-le-1744523197.png",
-        "position": "Chuyên gia phân tích, Quest Ventures"
-    },
-    {
-        "name": "Ông Lê Hòa Nhã",
-        "img": "https://surfdanang.zone/uploads/article/ong-le-hoa-nha-1744645489.png",
-        "position": "TGĐ Công ty Cổ phần Đầu tư HVA"
-    },
-    {
-        "name": "Ông Jeffrey Nah",
-        "img": "https://surfdanang.zone/uploads/article/ong-jeffrey-nah-1745206470.png",
-        "position": "Người thành lập & TGĐ JN Capital & Growth Advisory"
-    },
-    {
-        "name": "Bà Hana Ngô",
-        "img": "https://surfdanang.zone/uploads/article/ba-hana-ngo-1745403460.png",
-        "position": "Nhà sáng lập và Giám đốc điều hành HanaGold"
-    },
-    {
-        "name": "Ông Nguyễn Chí Công",
-        "img": "https://surfdanang.zone/uploads/article/ong-nguyen-chi-cong-1745403831.png",
-        "position": "TGĐ Công Ty Quản Lý FUNGO FUND"
-    },
-    {
-        "name": "Ông Lê Hoàng Phúc",
-        "img": "https://surfdanang.zone/uploads/article/ong-le-hoang-phuc-1745570050.png",
-        "position": "Giám đốc Trung tâm nghiên cứu, đào tạo thiết kế vi mạch và trí tuệ nhân tạo Đà Nẵng"
-    },
-    {
-        "name": "Ông Bùi Trung Hiếu",
-        "img": "https://surfdanang.zone/uploads/article/ong-bui-trung-hieu-1745575784.png",
-        "position": "Country lead Superteam Vietnam"
-    },
-    {
-        "name": "Bà Nguyễn Hương Quỳnh",
-        "img": "https://surfdanang.zone/uploads/article/nguyen-huong-quynh-1747886376.png",
-        "position": "CEO BambuUP"
-    },
-    {
-        "name": "Ông Trần Quốc Việt",
-        "img": "https://surfdanang.zone/uploads/article/ong-tran-quoc-viet-1746170825.png",
-        "position": "CEO - RiseGate"
-    },
-    {
-        "name": "Ông Hoàng Đăng Vịnh",
-        "img": "https://surfdanang.zone/uploads/article/ong-hoang-dang-vinh-1747129607.png",
-        "position": "Founder of Market and Product Research (MPR)"
-    },
-    {
-        "name": "Ông Phạm Tiến Thành",
-        "img": "https://surfdanang.zone/uploads/article/ong-pham-tien-thanh-1750837918.png",
-        "position": "Nhà sáng lập và CEO của Saigon Technology"
-    },
-    {
-        "name": "Ông Cong Wei Wang",
-        "img": "https://surfdanang.zone/uploads/article/ong-cong-wei-wang-1750837975.png",
-        "position": "CEO WORKATION LAB"
-    },
-    {
-        "name": "Ông Nguyễn Thành Trung",
-        "img": "https://surfdanang.zone/uploads/article/ong-nguyen-thanh-trung-1750838201.png",
-        "position": "Giảng viên Đại học Duy Tân; CEO - Công ty TNHH Công nghệ sinh học Vinseed"
-    },
-    {
-        "name": "Ông Trịnh Quốc Bảo",
-        "img": "https://surfdanang.zone/uploads/article/ong-trinh-quoc-bao-1751340817.png",
-        "position": "Phó Giám đốc Trung tâm Công nghệ thông tin - VNPT Đà Nẵng"
-    },
-    {
-        "name": "Ông Trần Huyền Dinh",
-        "img": "https://surfdanang.zone/uploads/article/ong-tran-huyen-dinh-1751423086.png",
-        "position": "Chủ nhiệm Uỷ ban Ứng dụng Fintech Hiệp hội Blockchain Việt Nam"
-    },
-    {
-        "name": "Ông Nguyễn Hoài Tưởng",
-        "img": "https://surfdanang.zone/uploads/article/ong-nguyen-hoai-tuong-1751423257.png",
-        "position": "Giám đốc khối chuyển đổi số kiêm Giám đốc Trung tâm Big Data và AI"
-    },
-    {
-        "name": "Ông Cris Duy",
-        "img": "https://surfdanang.zone/uploads/article/ong-cris-duy-1751423532.png",
-        "position": "Đại diện The Sandbox APAC"
-    },
-    {
-        "name": "Ông Lê Anh Quốc",
-        "img": "https://surfdanang.zone/uploads/article/ong-le-anh-quoc-1751424048.png",
-        "position": "Giám đốc Vận hành CTCP AlphaTrue Solutions"
-    },
-    {
-        "name": "Ông Anh Trần",
-        "img": "https://surfdanang.zone/uploads/article/ong-anh-tran-1751428225.png",
-        "position": "Trưởng khu vực APAC của Superteam, Solana"
-    },
-    {
-        "name": "Ông Rachit Agarwal",
-        "img": "https://surfdanang.zone/uploads/article/ong-rachit-agarwal-1751429531.png",
-        "position": "Trưởng bộ phận mở rộng toàn cầu  Wormhole Foundation"
-    },
-    {
-        "name": "Ông Uniform Lin",
-        "img": "https://surfdanang.zone/uploads/article/uniform-lin-1752456513.png",
-        "position": "CEO of CrossBond ＆CBtalent"
-    },
-    {
-        "name": "Bà Jade Hoang",
-        "img": "https://surfdanang.zone/uploads/article/ba-jade-hoang-1752568396.png",
-        "position": "CGO Decentralab & Copin.io"
-    },
-    {
-        "name": "Ông Dhonam Pemba",
-        "img": "https://surfdanang.zone/uploads/article/ong-dhonam-pemba-1753147258.png",
-        "position": "Interchain Labs"
+        "product_img": "https://surfdanang.zone/uploads/article/news-eartem-1752025575.webp",
+        "company_logo": "https://surfdanang.zone/uploads/others/eartem-1752025595.png",
+        "project_name": "EARTEM",
+        "description": "Dự án EARTEM nhằm xây dựng một hệ thống khép kín xử lý rác thải tại Đà Nẵng, từ thu gom, phân loại đến tái chế thành sản phẩm có giá trị – cụ thể là pallet thân thiện môi trường."
     }
 ]
