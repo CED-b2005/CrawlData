@@ -1,35 +1,44 @@
 const { exec } = require("child_process");
+
 const DataPythonInput = require("../funcs/dataPythonInput");
+const { json } = require("stream/consumers");
+
 const testingPython = (req, res) => {
     const py = req.query.py
-    const url = "https://surfdanang.zone";
+    const url = req.query.url;
 
     var require = url + " "
 
-    for (let i = 1; i <= 3; i++) {
-        const data = new DataPythonInput()
 
-        data.name = "speakers" + i
-        data.parent = "#guest-list .box-guest";
-        data.addInputData("h3", "name", "text")
-        data.addInputData("img", "avatar", "src")
-        data.addInputData("img", "alt", "alt")
-        data.addInputData("p", "position", "text")
-        data.nextPage = ".page-btn.btn-next.show"
+    const speakers = new DataPythonInput()
 
-        require += data.string()
-    }
+    speakers.name = "speakers";
+    speakers.parent = "#guest-list .box-guest";
+    speakers.addInputData("h3", "name", "text");
+    speakers.addInputData("img", "avatar", "src");
+    speakers.addInputData("img", "alt", "alt");
+    speakers.addInputData("p", "position", "text");
+    speakers.nextPage = ".page-btn";
+
+    require += speakers.string()
+
+    const exam = new DataPythonInput();
+
+
+
 
     exec(`python ./src/lib/python/${py}.py ${require}`, (error, stdout, stderr) => {
         if (error || stderr) {
             console.error({ error: `exec error: ${error}`, stderr: `stderr: ${stderr}` });
             return;
         }
-        try {
-            res.send(JSON.parse(stdout.replace("{'", "{").replace("]'", "]")));
-        } catch (e) {
-            res.send((stdout.replace("{'", "{").replace("]'", "]")));
-        }
+        // try {
+        //     res.send(JSON.parse(stdout.replace("{'", "{").replace("]'", "]").replace("\\", "")));
+        // } catch (e) {
+        //     res.send((stdout.replace("{'", "{").replace("]'", "]")));
+        // }
+
+        res.send(stdout)
     });
 }
 

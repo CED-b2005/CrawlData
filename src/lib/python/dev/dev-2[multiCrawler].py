@@ -238,7 +238,8 @@ with sync_playwright() as p:
                     elements += ","
 
             # Xử lý chuyển trang nếu có nextPage
-            next_button = page.query_selector(queries.nextPage)
+            next_button = page.query_selector_all(queries.nextPage)
+            next_button = next_button[-2]
             if next_button and next_button.is_enabled():
                 next_button.click()
                 page.wait_for_timeout(2000)  # đợi trang load
