@@ -38,6 +38,13 @@ app.get("/testing", async(req, res) => {
     testingDev(req, res);
 })
 
+app.get("/surfdanang", async(req, res) => {
+    const surfdanangPython = require("./src/lib/web/surfdanang/surfdanangPython");
+    if (req.query.execute == "startups") surfdanangPython.startups(req, res)
+    else if (req.query.execute == "events") surfdanangPython.events(req, res)
+    else if (req.query.execute == "speakers") surfdanangPython.speakers(req, res)
+})
+
 
 // const loop = setInterval(()=> {
 app.listen(8800, () => {
