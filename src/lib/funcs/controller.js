@@ -1,6 +1,6 @@
 const controller = (controllerName) => {
-    const controller = require(`../../controllers/${controllerName}Controller`);
-    return new controller()
+    const Controller = require(`../../controllers/${controllerName}Controller`);
+    return new Controller()
 }
 
 module.exports = controller;

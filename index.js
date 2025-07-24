@@ -5,6 +5,8 @@ const app = express();
 const createRouter = require("./src/routes/routes");
 const fetchData = require("./src/lib/funcs/fetchData");
 const controller = require("./src/lib/funcs/controller");
+const model = require("./src/lib/funcs/model");
+
 const PORT = process.env.PORT || 8800;
 
 app.get("/", async(req, res) => {
