@@ -1,12 +1,10 @@
-const express = require('express');
 require('dotenv').config()
+const express = require('express');
+const app = express();
 
 const createRouter = require("./src/routes/routes");
 const fetchData = require("./src/lib/funcs/fetchData");
-
-
-const app = express();
-
+const controller = require("./src/lib/funcs/controller");
 const PORT = process.env.PORT || 8800;
 
 app.get("/", async(req, res) => {
@@ -44,7 +42,6 @@ app.get("/surfdanang", async(req, res) => {
     else if (req.query.execute == "events") surfdanangPython.events(req, res)
     else if (req.query.execute == "speakers") surfdanangPython.speakers(req, res)
 })
-
 
 // const loop = setInterval(()=> {
 app.listen(8800, () => {
