@@ -34,7 +34,6 @@ const collectEvent = (req, res, stdout) => {
     try {
         const eventController = controller("event")
         const eventList = JSON.parse(stdout);
-        l
         eventController.insertData(eventList)
         console.log("\n--- successful ---\n");
         res.send(`
@@ -46,6 +45,7 @@ const collectEvent = (req, res, stdout) => {
         res.send("----- failed -----")
 
     }
+
 
 }
 
