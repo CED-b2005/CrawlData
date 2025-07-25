@@ -1,12 +1,14 @@
 const { ID } = require('appwrite')
+const { Query } = require('appwrite')
 const { databases } = require("./config");
+
 require("dotenv").config()
 const database_id = process.env.APPWRITE_DATABASE_ID;
 
 const db = {}
 
 const collections = [{
-    id: process.env.APPWRITE_COLLECTION_EVENT_ID,
+    id: process.env.APPWRITE_COLLECTION_EVENTS_ID,
     name: "events"
 }, {
     id: process.env.APPWRITE_COLLECTION_WEBS_ID,
@@ -26,7 +28,10 @@ const collections = [{
 }, {
     id: process.env.APPWRITE_COLLECTION_SPEAKER_EVENT_ID,
     name: "speaker_event"
-}, ]
+}, {
+    id: process.env.APPWRITE_COLLECTION_TIMELINE_ID,
+    name: "time_line"
+}]
 
 collections.forEach((collection) => {
     db[collection.name] = {
@@ -51,7 +56,6 @@ collections.forEach((collection) => {
         list: (queries = []) => databases.listDocuments(database_id, collection.id, queries),
 
         get: (id) => databases.getDocument(database_id, collection.id, id),
-
     }
 })
 

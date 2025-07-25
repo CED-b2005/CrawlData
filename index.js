@@ -1,11 +1,13 @@
 require('dotenv').config()
 const express = require('express');
 const app = express();
+const { Query } = require('appwrite');
+
 
 const createRouter = require("./src/routes/routes");
 const fetchData = require("./src/lib/funcs/fetchData");
 const controller = require("./src/lib/funcs/controller");
-const model = require("./src/lib/funcs/model");
+const encodeHexUTF8 = require("./src/lib/funcs/hexUTF8");
 
 const PORT = process.env.PORT || 8800;
 
@@ -45,9 +47,27 @@ app.get("/surfdanang", async(req, res) => {
     else if (req.query.execute == "speakers") surfdanangPython.speakers(req, res)
 })
 
-// const loop = setInterval(()=> {
+app.get("/api/surfdanang", async(req, res) => {
+    if (req.query.execute == "startups") {
+        const eventController = controller("startup");
+        eventController.list().then((result) => {
+            res.json(result.documents)
+        })
+
+    } else if (req.query.execute == "events") {
+        const eventController = controller("event");
+        eventController.list([Query.search("date", "29 t")]).then((results) => {
+            res.json(results.documents)
+        })
+    } else if (req.query.execute == "speakers") {
+        const speakerController = controller("speaker");
+        speakerController.list().then((results) => {
+            res.json(results.documents)
+        })
+    }
+})
+
 app.listen(8800, () => {
-        console.log("project: " + process.env.PROJECT);
-        console.log("port: http://localhost:" + 8800)
-    })
-    // }, 10000)
+    console.log("project: " + process.env.PROJECT);
+    console.log("port: http://localhost:" + 8800)
+})
