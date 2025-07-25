@@ -32,7 +32,7 @@ const collectSpeaker = (req, res, stdout) => {
 
 const collectEvent = (req, res, stdout) => {
     try {
-        const eventController = controller("event") s
+        const eventController = controller("event")
         const eventList = JSON.parse(stdout);
         l
         eventController.insertData(eventList)
