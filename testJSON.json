@@ -1,221 +1,121 @@
 [{
-        "company_logo": "https://davas.vc/uploads/article/icon-8tisyvvq-185-alterno-energy-jsc.png",
-        "project_name": "Alterno Energy JSC",
-        "description": "Emerging Trends: Demand is rising for sustainable industrial heating, automation, and thermal storage. LDES solutions like Alternō’s Sand Battery offer cost-effective, zero-emission heat, reducing dependence on solid fuels."
+        "name": "Quest Ventures",
+        "logo": "https://davas.vc/uploads/others/quest-ventures-1744206488.png",
+        "img": "https://davas.vc/uploads/article/l-img-quest-ventures-1744363990.webp",
+        "description": "Quest Ventures là một công ty đầu tư mạo hiểm hàng đầu tại Châu Á. Danh mục đầu tư gồm hơn 150 công ty được đầu tư mạo hiểm của công ty hoạt động tại hơn 150 thành phố trên khắp Châu Á, tạo ra việc làm và cơ hội thăng tiến cho hơn 11.000 nhân viên, trong khi các nỗ lực về Doanh nghiệp và ESG của công ty tác động trực tiếp đến hàng nghìn người khác. Để biết thêm thông tin: www.questventures.com"
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-ae3nl2o7-31-em-and-ai-joint-stock-company.png",
-        "project_name": "EM and AI Joint Stock Company",
-        "description": "EM&AI is a pioneer in AI development in Vietnam, specializing in NLP and Conversational AI."
+        "name": "Do Ventures",
+        "logo": "https://davas.vc/uploads/others/do-ventures-1744360407.png",
+        "img": "https://davas.vc/uploads/article/l-img-do-ventures-1744766296.webp",
+        "description": "Do Ventures là Quỹ đầu tư mạo hiểm giai đoạn đầu, chuyên tập trung vào các công ty công nghệ ở Việt Nam và Đông Nam Á. Do Ventures tìm kiếm các công ty khởi nghiệp có tiềm năng tăng trưởng cao trong các lĩnh vực như thương mại điện tử, công nghệ tài chính và giáo dục. Quỹ đã đầu tư vào nhiều công ty khởi nghiệp thành công như Tiki, Momo và Topica. Do Ventures có mạng lưới rộng lớn các cố vấn, nhà đầu tư và đối tác trên khắp thế giới. Quỹ thường xuyên tổ chức các sự kiện và hội thảo để kết nối các công ty khởi nghiệp với các nhà đầu tư tiềm năng. Website: https://doventures.vc/vi"
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-gc4v5esk-35-uctalent.png",
-        "project_name": "UCTalent",
-        "description": "UCTalent is the Privacy Web3 Talent Network. UCTalent provides the confidential on-chain referral recruitment connecting top blockchain and Web3 talents through a trusted, reward-driven network and Career AI Agent that helps talents to grow the career smoothly and safely."
+        "name": "ThinkZone Ventures",
+        "logo": "https://davas.vc/uploads/others/thinkzone-1744206518.png",
+        "img": "https://davas.vc/uploads/article/l-img-thinkzone-ventures-1746584363.webp",
+        "description": "Mô hình của ThinkZone là một quỹ đầu tư mạo hiểm, tập trung hỗ trợ và đầu tư vào các startup công nghệ trong giai đoạn hạt giống đến Series A từ khắp các ngành, với quy mô đầu tư lên đến $3,000,000. Không chỉ thế, ThinkZone còn xây dựng chương trình tăng tốc nhằm hỗ trợ các Startups từ giai đoạn rất sớm, khi công ty mới bước đầu đưa sản phẩm ra thị trường. Website: https://thinkzone.vn/"
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-gidxhvb2-36-enso-dana-company-limited.png",
-        "project_name": "ENSO Deodorizer Granules",
-        "description": "With ingredients from completely natural materials, safe for users, immediate effectiveness, long-term use"
+        "name": "FUNDGO",
+        "logo": "https://davas.vc/uploads/others/fund-1744362328.png",
+        "img": "https://davas.vc/uploads/article/l-img-fundgo-1744365747.webp",
+        "description": "FUNDGO là Quỹ đầu tư Khởi nghiệp Sáng tạo đến từ Việt Nam với sứ mệnh ươm mầm và đầu tư dài hạn vào các dự án khởi nghiệp cùng doanh nghiệp vừa và nhỏ có tính đổi mới, sáng tạo cao. Với vốn cam kết đầu tư lên đến 150 triệu USD cùng mạng lưới liên kết gồm hơn 30 quỹ đầu tư trong và ngoài nước, FUNDGO sở hữu nguồn lực tài chính lớn cùng khả năng kết nối với các đơn vị hàng đầu trong từng lĩnh vực, giúp doanh nghiệp và dự án nhanh chóng mở rộng thị trường. Quỹ đồng thời có mối quan hệ hợp tác chặt chẽ với cơ quan, sở, ban ngành và cơ sở đào tạo lớn trong khu vực và trên cả nước. Website: https://fundgo.network/"
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-32of4esx-106-fastdo-ai-integrated-work-management-software.png",
-        "project_name": "FASTDO: AI-Integrated Work Management Software",
-        "description": "The FASTDO project is developing an innovative AI-Integrated Work Management Software designed specifically to address critical operational inefficiencies prevalent in Small and Medium Enterprises (SMEs). Initial research, including analysis of SME needs and challenges (derived from deploying the existing Fastdo platform), identified significant difficulties in accessing and synthesizing internal company information. This problem particularly affects new employees and hinders overall productivity, demanding excessive support from operational staff."
+        "name": "Weangels Capital Ventures",
+        "logo": "https://davas.vc/uploads/others/weangels-1744360791.png",
+        "img": "https://davas.vc/uploads/article/l-img-weangels-capital-ventures-1744366987.webp",
+        "description": "WEANGELS CAPITAL VENTURES - Được sáng lập bởi WeAngels Capital, tổ chức tiên phong trong việc huấn luyện và đầu tư giai đoạn sớm vào các công ty khởi nghiệp tiềm năng của Việt Nam, phát triển họ thành những công ty công nghệ mang tầm đẳng cấp quốc tế, đủ năng lực phát triển và chiếm lĩnh thị trường toàn cầu. WEANGELS CAPITAL VENTURES tập trung vào các công ty khởi nghiệp công nghệ như tài chính, nông nghiệp, bán lẻ, logistics, chăm sóc sức khỏe, y sinh học,... cam kết cùng họ xây dựng và phát triển các mô hình kinh doanh và giải pháp khác biệt sáng tạo, thông qua ứng dụng khoa học và công nghệ, nhằm tác động tích cực đến hệ sinh thái không chỉ ở phạm vi Việt Nam. Quỹ còn trao quyền về vốn và quản trị cho các nhà sáng lập tài năng của Việt Nam, đủ năng lực cho “cuộc chiến” tăng quy mô, phát triển thị trường trong nước và quốc tế. Website: https://weangelscapital.com/"
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-b50ahtzb-109-e-rent.png",
-        "project_name": "E-Rent",
-        "description": "E-Rent is a project that brings high value to the community and society. It creates many jobs for workers, helping drivers drive more safely and behave more courteously through training courses before joining."
+        "name": "Vertex Ventures",
+        "logo": "https://davas.vc/uploads/others/vertex-1744424112.png",
+        "img": "https://davas.vc/uploads/article/l-img-vertex-ventures-1744366179.webp",
+        "description": "Vertex Ventures là công ty sở hữu toàn phần của tập đoàn Temasek Holdings, chuyên đầu tư vào các công ty mới thành lập và là một trong những quỹ đầu tư mạo hiểm hàng đầu tại Châu Á cũng như trên thế giới. Lĩnh vực đầu tư chủ đạo của quỹ là mạng xã hội & truyền thông, logistics và vận tải, thương mại điện tử. Vốn đầu tư của quỹ rơi vào khoảng từ 3,270,000 USD đến 65,000,000 USD. Những thị trường đầu tư trọng điểm bao gồm Singapore và Indonesia. Với đội ngũ nhân viên có trụ sở tại Singapore, Đài Loan và Ấn Độ, Vertex Ventures Đông Nam Á và Ấn Độ là một phần của một mạng lưới quỹ mạo hiểm toàn cầu, dưới sự bảo trợ của Vertex Venture Holdings, một trong những công ty vốn hoạt động liên doanh dài nhất châu Á và là thành viên của Temasek Holdings. Website: https://vertexholdings.com/"
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-9u383mps-113-tripin-super-app-for-travel.png",
-        "project_name": "Tripin - Super app for travel",
-        "description": "**Target audience: young, dynamic, tech-savvy users aged 16-40"
+        "name": "Trive",
+        "logo": "https://davas.vc/uploads/others/trive-1744362313.png",
+        "img": "https://davas.vc/uploads/article/l-img-trive-1744365902.webp",
+        "description": "TRIVE là một quỹ đầu tư mạo hiểm giai đoạn đầu có trụ sở tại Singapore. Quỹ đầu tư vào các công ty khởi nghiệp công nghệ tạo ra tác động tích cực ở Đông Nam Á. Được thành lập vào năm 2015, TRIVE đã đầu tư vào 21 công ty khởi nghiệp và đã thực hiện hơn 4.000 buổi tư vấn trực tiếp, ươm tạo 86 công ty khởi nghiệp ở giai đoạn ý tưởng. TRIVE được Cơ quan tiền tệ Singapore cấp phép và quản lý với tư cách là Nhà quản lý quỹ đầu tư mạo hiểm. Website: https: Summit Capital hướng tới trở thành quỹ đầu tư hàng đầu khu vực và quốc tế, tiên phong trong việc thúc đẩy đổi mới sáng tạo, phát triển bền vững và chuyển  1. Phát triển bền vững và toàn diện: Đầu tư vào các doanh nghiệp cân bằng giữa lợi ích kinh tế, xã hội và môi trường. 2. Thúc đẩy đổi mới và chuyển đổi số: Hỗ trợ doanh nghiệp áp dụng công nghệ tiên tiến vào mô hình kinh doanh để tạo ra giá trị mới. 3. Kết nối toàn cầu: Xây dựng cầu nối giữa doanh nghiệp địa phương với thị trường quốc tế, mở rộng quy mô và sức cạnh tranh. 4. Nuôi dưỡng tài năng khởi nghiệp: Cung cấp nguồn lực tài chính, chiến lược và đào tạo nhằm phát hiện và phát huy tối đa tiềm năng của các nhà sáng lập."
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-5zv9jhmm-114-alpha-asimov-robotics.png",
-        "project_name": "Alpha Asimov Robotics",
-        "description": "Alpha Asimov Robotics develops autonomous delivery robots designed for last-mile logistics in urban environments."
+        "name": "Genesia Ventures Vietnam Investment Fund",
+        "logo": "https://davas.vc/uploads/others/genesia-ventures-1745391621.png",
+        "img": "https://davas.vc/uploads/article/l-img-genesia-ventures-vietnam-investment-fund-1744366437.webp",
+        "description": "Genesia Ventures được thành lập vào năm 2016 tại Tokyo. Tính đến nay, quỹ đã có 3 Fund, tập trung đầu tư vào các startup ở giai đoạn sớm, từ Pre-seed tới Pre-series A. Tại Việt Nam nói riêng, Genesia Ventures đã đầu tư vào 12 công ty startup khác nhau. Trong đó, Fund thứ nhất đã đầu tư vào 2 công ty là Homedy và Luxstay, Fund thứ 2 đã đầu tư vào 7 công ty là Kamereo, Manabie, eDoctor, BuyMed, Vietcetera, Fundiin và Selly. Fund thứ 3 đã đầu tư vào M Village, Rootopia và Wareflex. Với nguồn lực mới là 110 triệu USD AUM này, Genesia Ventures cho biết sẽ đầu tư mạnh mẽ hơn nữa vào các công ty startup có tiềm năng phát triển tốt nhất và chia sẻ cùng tầm nhìn mục tiêu chung với quỹ này tại thị trường Việt Nam. Website: https://www.genesiaventures.com/en/top-en/"
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-pqz3lftq-115-five-star-no-1-app-in-construction-home-care-minor-repairs-and-contractor-hiring.png",
-        "project_name": "FIVE STAR - No.1 APP IN CONSTRUCTION, HOME CARE,  MINOR REPAIRS, AND CONTRACTOR HIRING",
-        "description": "5Sao is a pioneering digital platform in Vietnam's construction and home care industry, designed to connect homeowners with verified contractors and skilled technicians for services ranging from minor repairs to full-scale construction."
+        "name": "Daiwa Corporate Investment Co., Ltd. (DCI)",
+        "logo": "https://davas.vc/uploads/others/daiwa-corporate-1744941122.png",
+        "img": "https://davas.vc/uploads/article/l-img-daiwa-corporate-investment-co-ltd-dci-1744941140.webp",
+        "description": "DCI là một công ty đầu tư mạo hiểm hàng đầu tại Nhật Bản, với hơn 40 năm kinh nghiệm trong ngành.   Công ty quản lý các quỹ đầu tư ở Nhật Bản, Trung Quốc và Việt Nam, tập trung vào các lĩnh vực như công nghệ sinh học, và các ngành công nghiệp tăng trưởng khác.   DCI cung cấp hỗ trợ toàn diện cho các công ty ở nhiều giai đoạn phát triển, từ giai đoạn khởi nghiệp đến khi IPO, bao gồm cả tư vấn tài chính và hỗ trợ quản lý.   Là một thành viên của Tập đoàn Chứng khoán Daiwa, DCI có khả năng cung cấp một loạt các dịch vụ tài chính đa dạng.   DCI có các văn phòng và đối tác tại nhiều quốc gia, cho phép công ty kết hợp sự am hiểu thị trường địa phương với chuyên môn quản lý đầu tư mạo hiểm.  Website: https://www.daiwa-inv.co.jp/en/"
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-1p3pu44j-118-coffee-market-co-ltd.png",
-        "project_name": "Coffee Market Co. Ltd",
-        "description": "App Chợ Cà Phê is a groundbreaking e-commerce and fintech platform tailored exclusively for Vietnam’s $11.5 billion coffee industry."
+        "name": "Kilsa Global",
+        "logo": "",
+        "img": "",
+        "description": ""
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-qcf34u46-121-hanagold-joint-stock-company.png",
-        "project_name": "HanaGold Joint Stock Company",
-        "description": "Target Audience: HanaGold targets young, dynamic individuals who seek safe asset accumulation and smart personal financial investment options. It also caters to traditional gold investors and those interested in valuable gifts and gold jewelry."
+        "name": "Sunwah Innovation Center",
+        "logo": "",
+        "img": "",
+        "description": ""
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-de8rn7qz-122-augmented-hype.png",
-        "project_name": "Augmented Hype",
-        "description": "Augmented Hype creates powerful, scalable XR solutions for enterprise, brand experiences, education, and training sectors."
+        "name": "Makara Capital",
+        "logo": "",
+        "img": "",
+        "description": ""
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-4y8ju9z8-124-run-together-sports-technology-joint-stock-company.png",
-        "project_name": "Run Together Sports Technology Joint Stock Company",
-        "description": "Founded in May 2022 in Can Tho City, Run Together is sprort technology company committed to reshaping the fitness experience through advanced technology and modern design."
+        "name": "JN Capital & Growth Advisory",
+        "logo": "",
+        "img": "",
+        "description": ""
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-naf2j3hn-125-ddc-holdings.png",
-        "project_name": "DDC Holdings",
-        "description": "DDC Holdings aims to revolutionize agriculture by leveraging digital technology to optimize farming processes and enhance resource management. Targeting both local and global markets, DDC focuses on sustainability and efficiency, providing transparent agricultural practices through blockchain integration."
+        "name": "Dream Incubator (DI)",
+        "logo": "https://davas.vc/uploads/article/l-img-ong-ngo-tan-tien-1746171747.webp",
+        "img": "",
+        "description": ""
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-elbos3ni-135-vfilms-technology-joint-stock-company.png",
-        "project_name": "VFILMS TECHNOLOGY JOINT STOCK COMPANY",
-        "description": "Our platform primarily targets four dynamic user segments: students aged 18–25, young professionals aged 25–35, modern mothers in the 25–35 range, and freelancers aged 20–40. These groups represent a growing demand for mobile-first, on-the-go entertainment experiences."
+        "name": "Jungle Ventures",
+        "logo": "https://davas.vc/uploads/article/l-img-ong-nguyen-viet-hung-1746421018.webp",
+        "img": "",
+        "description": ""
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-22oxokdl-136-kaas-finance-stablecoin-solution-apis-platform.png",
-        "project_name": "Kaas.finance - Stablecoin solution & APIs platform",
-        "description": "Kaas is to help traditional finance onboard WEB3 users seamlessly via stablecoin onramp/offramp as the bridge & more with DEFI protocol..."
+        "name": "Lotte Ventures Vietnam",
+        "logo": "https://davas.vc/uploads/article/l-img-ong-nguyen-van-vinh-1746427497.webp",
+        "img": "",
+        "description": ""
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-eby2cf8g-138-skoolib.png",
-        "project_name": "Skoolib",
-        "description": "Skoolib is a cloud-based library management platform built to empower small to medium-sized libraries with modern, efficient, and scalable tools. Designed specifically for school libraries, public libraries, community learning centers, and non-profit education projects, Skoolib bridges the digital gap by offering professional library capabilities in a lightweight, user-friendly system."
+        "name": "Kyoto London Nexus",
+        "logo": "https://davas.vc/uploads/article/l-img-ong-cong-wei-wang-1746949307.webp",
+        "img": "",
+        "description": ""
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-hwuzi5k8-140-plen-ai.png",
-        "project_name": "Plen.ai",
-        "description": "PlenAI is an AI-powered Coaching Operating System that bridges traditional coaching instinct with modern data-driven development. Our platform enables coaches to upload drills from TikTok, YouTube, or self-recorded footage, analyze player execution using AI, and deliver instant, personalized feedback."
+        "name": "Lean Ventures",
+        "logo": "https://davas.vc/uploads/article/l-img-ba-my-tran-1747045960.webp",
+        "img": "",
+        "description": ""
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-13nbql0m-154-risegate-digital-capital-rising.png",
-        "project_name": "RiseGate - Digital Capital Rising",
-        "description": "Risegate is a digital fundraising platform for creative projects, connecting promising projects with a community of retail investors. Risegate empowers founders to present their ideas, engage with the community, and build membership and loyalty systems to cultivate long-term supporter networks."
+        "name": "Azimut Group",
+        "logo": "https://davas.vc/uploads/article/l-img-ong-hoang-dang-vinh-1747129607.webp",
+        "img": "",
+        "description": ""
     },
     {
-        "company_logo": "https://davas.vc/uploads/article/icon-41dzcgip-156-patsense-inc.png",
-        "project_name": "PatSense, Inc",
-        "description": "PatSense transforms patent applications for inventors, SMEs, corporations, and research institutions seeking a more efficient, cost-effective way to navigate the complex IP landscape."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-y2pkpiy7-157-ohhi-vn.png",
-        "project_name": "Ohhi.vn",
-        "description": "DiSport is the next generation application poised to redefine the landscape of online sporting competitions."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-96ib55xz-158-viot-energy-efficiency-platform-jsc.png",
-        "project_name": "VIOT ENERGY EFFICIENCY PLATFORM JSC",
-        "description": "About market landscape: Vietnam has over 50,000 commercial buildings, with more than 85% over a decade old and lacking EMS."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-cs4wd7em-159-st-software-join-stock-company.png",
-        "project_name": "ST SOFTWARE JOIN STOCK COMPANY",
-        "description": "AquaX is a smart shrimp farming solution that integrates AIoT (Artificial Intelligence and Internet of Things) technology with traditional aquaculture expertise to transform the way shrimp are cultivated."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-6g343o8j-160-tradeline.png",
-        "project_name": "Tradeline",
-        "description": "Tradeline reshapes the way the construction industry buys, sells, and trades materials and equipment, aiming to become the No. 1 e-commerce platform in the Vietnamese and Southeast Asian construction industry."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-9q50ptvj-161-app-the-call-minor-repairman-tran-thi.png",
-        "project_name": "App the call minor repairman Tran Thi",
-        "description": "We have 14 years of experience in buying and selling construction materials, interior decoration, and repairing civil houses"
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-i0gjcrmf-162-dev-plus-join-stock-company.png",
-        "project_name": "DEV PLUS JOIN STOCK COMPANY",
-        "description": "Dev Plus is a dynamic platform designed to connect software developers with innovative career opportunities and projects, fostering a thriving community of tech talent. We cater to developers at all experience levels, from fresh graduates to seasoned professionals, helping them advance their careers, collaborate on cutting-edge projects, and continuously develop their skills."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-1cglfcst-163-instanapps.png",
-        "project_name": "Instanapps",
-        "description": "Target Audience: Our platform is designed for young, passionate gamers who enjoy both casual and competitive play. Whether they're streaming for fun, climbing the ranks, or aspiring to go pro, we provide a secure, high-quality gaming experience tailored to their needs."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-7pkiaem5-164-actinobacteria-based-bioproducts-applied-in-agriculture.png",
-        "project_name": "ACTINOBACTERIA-based bioproducts applied in agriculture",
-        "description": "This products takes advantages of ACTINOBACTERIA strains which can produce enzyme, natural antibiotics, and many beneficial bioactive compounds. It helps inhibit the growth of harmful factors like fungi, bacteria, and nematodes as well as stimulate the development of beneficial microorganism which promotes healthy and balanced soil environment."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-r26gur1y-165-olinno-technology-ltd.png",
-        "project_name": "Olinno Technology Ltd.",
-        "description": "AI recruitment platform (#1 ATS of Vietnam, AI interviews, resume scoring, talent recommendations). Expand to professional profiles, skill certifications, and early networking tools. Become Vietnam’s LinkedIn with 10M+ users, groups, and career insights."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-y1eecn0k-166-bab-promote-and-exploit-local-tourism.png",
-        "project_name": "BAB _Promote and exploit local tourism",
-        "description": "BAB Vietnam (Branding And Beyond) was established with the model of OPEN BOOKING - Local travel agency system, developed by BAB Group Local Tourism Promotion & Exploitation Joint Stock Company, marking a strong step forward in enhancing the value and exploiting the potential of local tourism in particular and Vietnam tourism in general."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-y5fe5nio-170-data-platform.png",
-        "project_name": "Data Platform",
-        "description": "iTITAN - PLATFORM FOR MINING, SYNTHESIZING, ANALYZING & FORECASTIN, BUILDING AI"
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-ivm5qvpy-178-mita-holdings-co-ltd.png",
-        "project_name": "Mita Holdings Co. Ltd.",
-        "description": "OCEANTECH:  PROVIDING AN ECOSYSTEM OF IT SOLUTIONS FOR LARGE ENTERPRISES:"
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-qc2bdnj2-181-oneapp-global-one-member-company-limited.png",
-        "project_name": "ONEAPP GLOBAL ONE MEMBER COMPANY LIMITED",
-        "description": "Lover is a safe and friendly community where you can share your true thoughts and feelings. It is also a leading global dating app for chatting and meeting new people. With Lover, you can connect with people in your area and enjoy the best dating experience."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-inoakwyx-182-unify.png",
-        "project_name": "Unify",
-        "description": "Unify is transforming the stressful, opaque university admissions process into a strategic, data-driven journey. Our platform combines cutting-edge AI matching with a global network of vetted mentors to help students discover their perfect-fit universities and maximize scholarship opportunities.   Unify is transforming the stressful, opaque university admissions process into a strategic, data-driven journey. Our platform combines cutting-edge AI matching with a global network of vetted mentors to help students discover their perfect-fit universities and maximize scholarship opportunities.     Target Audience:   Ambitious high school students (ages 16-19) and their parents, particularly first-generation applicants and those seeking international education. We also serve recent graduates looking for postgraduate opportunities and career changers pursuing advanced degrees.     Market Opportunity:   The global education consulting market is valued at $2.5 billion, with 75% of students reporting extreme stress during applications. Traditional consultancies charge $5,000+ for generic advice, while 89% of applicants want mentorship from someone who recently succeeded at their dream school.     Unique Selling Points:   1. AI Precision: Our algorithm analyzes 10,000+ data points (grades, test scores, extracurriculars, and more) to match students with universities where they have the highest acceptance probability   2. Proven Mentor Network: 300+ rigorously vetted mentors who secured admissions to top 100 global universities, many with full-ride scholarships   3. Scholarship Optimization: Proprietary system identifying overlooked funding opportunities tailored to each student's profile   4. End-to-End Platform: From university shortlisting to essay editing and interview prep - all in one dashboard     Our Strengths:   - Founder Credibility: Leadership team includes former admissions consultants and scholarship recipients from top universities   - Technical Edge:Complex and proven matching algorithm with high accuracy in predicting admission chances   - Community Trust: 4.8/5 average mentor rating across 100+ completed sessions   - Global Reach: Currently serving students in 15 countries with localized support     Unify doesn't just offer advice - we engineer acceptances. Join thousands of students who've transformed their academic futures at unifyhk.com."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-00307vtl-183-kollab.png",
-        "project_name": "Kollab",
-        "description": "Kollab is a data-driven influencer marketing platform built to bridge the gap between everyday social media users, micro/nano influencers, and small to mid-sized businesses looking for affordable, effective digital promotion. We combine AI technology with Meta’s API to create a seamless experience where brands can find the most relevant influencers for their target audience and monitor campaign performance in real time."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-q0enuvfi-184-hong-kong-yihai-medical-technology-co-limited.png",
-        "project_name": "Hong Kong Yihai Medical Technology Co., Limited",
-        "description": "The bioabsorbable vascular grafts with mimic structures using self-formulated copolymers processed with nanotechnologies, promotes in situ blood vessel regeneration overcome the immune rejection response and poor long-term patency of vascular grafts currently applied in cardiovascular and vascular surgeries."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-h16iw7ws-193-tritopweb.png",
-        "project_name": "TriTopWeb",
-        "description": "Our main target audience is students and young professionals in Vietnam, Singapore, USA and EU. We have new business model which let users watch ads in exchanging for permission to use our AI. We have around 2 millions impressions/views on LinkedIn and have hundreds of users across our web apps"
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-7kp1bmlq-196-medcat.png",
-        "project_name": "MedCAT",
-        "description": "MedCAT is a leading AI company with two main products: MedCAT IDUS – a platform for understanding and structuring all types of unstructured data"
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-zeve1114-200-etelecom-joint-stock-company.png",
-        "project_name": "ETELECOM JOINT STOCK COMPANY",
-        "description": "CS eTelecom / CPaaS (Communications Platform as a Service) connects Network Operators & Zalo, helping Enterprises quickly deploy Zalo Official Account (OA) including OA Chat, ZNS, ZCC & Zalo Mini App. CS eTelecom supports Enterprises with API/SDK to integrate IP/PBX and 3rd party software such as Chatbot, e-Invoice, e-Contract, CDP (Customer Data Platform), CRM (Customer Relationship Management), ERP (Enterprise Resource Planning), DMS (Distribution Management System), POS (Point Of Sales)"
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-bygeka42-204-new-era.png",
-        "project_name": "New Era",
-        "description": "The MXene material developed in our project is an innovative two-dimensional material that combines high electrical conductivity of about 10,000 S/cm with strong hydrophilicity, rivaling high-grade metallic conductors. Its surface is rich in active functional groups, offering superior processability and design flexibility, and outperforming graphene in practical applications."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-2om4ldpe-206-vrwa-vietnam-real-world-assets.png",
-        "project_name": "VRWA (Vietnam Real-World Assets)",
-        "description": "Target audience: global accredited & retail investors seeking VN yield.- Market: Vietnam RWA market ≈ US$21 bn p.a., CAGR 14%.- USP: hybrid legal-tech stack, multi-payout schedule, white-label SPV model, instant secondary OTC.- Strengths: founding team 15-y fintech, strategic MoU with Famous Group & local banks, built-in compliance (KYC/AML, RegTech)."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-1kriq8ly-207-smartos-joint-stock-company.png",
-        "project_name": "SMARTOS JOINT STOCK COMPANY",
-        "description": "Smartos primarily serves businesses in the rental real estate sector"
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-fbr4ssgz-208-chainsatlas.png",
-        "project_name": "ChainsAtlas",
-        "description": "ChainsAtlas brings AI automation to the blockchain. Our AtlasAI enables AI agents to operate entirely on-chain and interact across multiple blockchains."
-    },
-    {
-        "company_logo": "https://davas.vc/uploads/article/icon-1nnommzc-225-seraphim.png",
-        "project_name": "Seraphim",
-        "description": "Seraphim is a knowledge-based SoC/IP platform developed over many years to establish leadership and gain a competitive advantage in SoC services."
+        "name": "Aiviet Venture",
+        "logo": "",
+        "img": "",
+        "description": "Bề mặt của MXene giàu các nhóm chức hoạt động, mang lại khả năng gia công vượt trội và tính linh hoạt trong thiết kế, vượt trội hơn graphene trong nhiều ứng dụng thực tiễn. Độ ổn định và hiệu suất vượt trội của MXene mở ra tiềm năng ứng dụng lớn trong nhiều lĩnh vực như lưu trữ năng lượng điện hóa, sản xuất hydro, che chắn điện từ, tàng hình hồng ngoại, chuyển đổi quang nhiệt và gia cường vật liệu polymer. Chiến lược thương mại hóa của chúng tôi tập trung vào việc hợp tác với các doanh nghiệp đầu ngành để đưa MXene ra thị trường, đáp ứng nhu cầu ngày càng tăng đối với các vật liệu hiệu suất cao. Chúng tôi đặt mục tiêu xây dựng các dây chuyền sản xuất và tối ưu hóa quy trình chế tạo nhằm giảm chi phí và tăng sản lượng. Bên cạnh đó, chúng tôi sẽ nghiên cứu khả năng tích hợp MXene vào các sản phẩm hiện có nhằm nâng cao hiệu suất và mở ra những cơ hội thị trường mới. Mục tiêu của chúng tôi là đưa MXene trở thành vật liệu ưu tiên trong các ứng dụng công nghệ cao thế hệ mới thông qua hoạt động R&D và tiếp thị liên tục. Chúng tôi kỳ vọng doanh thu sẽ tăng trưởng trong những năm tới thông qua việc cấp phép bằng sáng chế, bán hàng trực tiếp và các hình thức hợp tác. Khi nhu cầu thị trường đối với các vật liệu đa chức năng, hiệu suất cao ngày càng tăng, chúng tôi tin rằng tiềm năng thương mại của MXene sẽ được khai thác tối đa. Chúng tôi cam kết biến những ưu thế đổi mới của MXene thành thành công thương mại, tạo ra giá trị bền vững cho các bên liên quan. Tóm lại, việc phát triển MXene không chỉ là một bước tiến công nghệ mà còn là một cơ hội kinh doanh đầy hứa hẹn. Chúng tôi mong muốn hợp tác với tất cả các bên để thúc đẩy quá trình thương mại hóa vật liệu đột phá này và mở ra một kỷ nguyên mới trong các ứng dụng vật liệu công nghệ cao."
     }
 ]
