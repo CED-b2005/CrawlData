@@ -3,70 +3,51 @@ const axios = require('axios');
 const fetchData = {
     /**
      * GET request
-    */
-    get: (action, url, headers = {}, params = {}) => {
-        axios.get(url, {
+     */
+    get: async(url, headers = {}, params = {}) => {
+        const response = await axios.get(url, {
             headers,
             params
         })
-            .then((response) => {
-                console.log(response.data);
-                action(response.data);
-            })
-            .catch((error) => {
-                console.error(error);
-            });
+        console.log("response: ", response);
+        return response.data;
     },
 
     /**
      * POST request
-    */
-    post: (action, url, body = {}, headers = {}, params = {}) => {
-        axios.post(url, body, {
+     */
+    post: async(url, body = {}, headers = {}, params = {}) => {
+        const response = await axios.post(url, body, {
             headers,
             params
         })
-            .then((response) => {
-                console.log(response.data);
-                action(response.data);
-            })
-            .catch((error) => {
-                console.error(error);
-            });
+
+        console.log("response: ", response)
+        return response.data
     },
 
     /**
      * PUT request
-    */
-    put: (action, url, body = {}, headers = {}, params = {}) => {
-        axios.put(url, body, {
+     */
+    put: async(url, body = {}, headers = {}, params = {}) => {
+        const response = await axios.put(url, body, {
             headers,
             params
         })
-            .then((response) => {
-                console.log(response.data);
-                action(response.data);
-            })
-            .catch((error) => {
-                console.error(error);
-            });
+        console.log("response: ", response)
+        return response.data
     },
 
     /**
      * DELETE request
-    */
-    delete: (action, url, headers = {}, params = {}) => {
-        axios.delete(url, {
+     */
+    delete: async(url, headers = {}, params = {}) => {
+        const response = await axios.delete(url, {
             headers,
             params
         })
-            .then((response) => {
-                console.log(response.data);
-                action(response.data);
-            })
-            .catch((error) => {
-                console.error(error);
-            });
+        console.log("response: ", response)
+        return response.data
     }
 };
 
