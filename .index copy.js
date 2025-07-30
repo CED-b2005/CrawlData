@@ -27,19 +27,6 @@ app.get("/fetch", async(req, res) => {
         "https://api.dictionaryapi.dev/api/v2/entries/en/hello", {}, {})
 })
 
-app.get("/crawl4AI", async(req, res) => {
-    const crawl4AI = require("./src/lib/web/crawl4AI")
-    const url = req.query.url
-    const type = req.query.type
-        // res.send("url:" + url + ". type: " + type)
-    crawl4AI(url, type, res);
-})
-
-app.get("/testing", async(req, res) => {
-    const testingDev = require("./src/lib/testing/testingPython")
-    testingDev(req, res);
-})
-
 app.get("/surfdanang", async(req, res) => {
     const surfdanangPython = require("./src/lib/web/surfdanang/surfdanangPython");
     if (req.query.execute == "startups") surfdanangPython.startups(req, res)
@@ -67,14 +54,17 @@ app.get("/api/surfdanang", async(req, res) => {
     }
 })
 
+app.get("/ai", async(req, res) => {
+    console.log("ai question?");
+    callGroq(req.query.message, res)
+})
+
 app.listen(8800, () => {
     console.log("project: " + process.env.PROJECT);
     console.log("port: http://localhost:" + 8800)
 })
 
-app.get("/ai", async(req, res) => {
-    callGroq(req.query.message, res)
-})
+
 
 app.get("/askyourdatabase", async(req, res) => {
     try {
@@ -91,7 +81,7 @@ async function callGroq(prompt, res) {
     try {
         const response = await axios.post(
             GROQ_API_URL, {
-                model: 'llama3-70b-8192', // Hoặc "mixtral-8x7b-32768", tùy bạn
+                model: 'llama-3.3-70b-versatile', // Hoặc "mixtral-8x7b-32768", tùy bạn
                 messages: [
                     { role: 'user', content: prompt }
                 ],
