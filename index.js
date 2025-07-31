@@ -3,9 +3,11 @@ const express = require('express');
 const app = express();
 const axios = require("axios")
 
-const createRouter = require("./src/routes/routes");
-const fetchData = require("./src/lib/funcs/fetchData");
 const supabase = require("./src/lib/supabase/supabase");
+const fetchData = require("./src/lib/funcs/fetchData");
+const createRouter = require("./src/routes/routes");
+const groqAI = require("./src/lib/funcs/groqAI");
+
 
 const PORT = process.env.PORT || 8800;
 
@@ -25,8 +27,9 @@ app.get("/speakers", async(req, res) => {
 })
 
 app.get("/ai", async(req, res) => {
-    console.log("ai question?");
-    callGroq(req.query.message, res)
+    const message = req.query.message;
+    const response = await groqAI(message)
+    res.json(response)
 })
 
 
@@ -35,12 +38,6 @@ app.get("/fetch", async(req, res) => {
     const response = await fetchData.get("https://api.dictionaryapi.dev/api/v2/entries/en/hello", {}, {})
     res.send(response)
 })
-const processing = (response = "") => {
-    response = response.replaceAll("```", "段").split("段")
-    console.log(response);
-    if (response.length >= 3) return response[1].replace(";", "")
-    else false
-}
 
 app.post("/post", async(req, res) => {
     const response = await callGroq(post)
@@ -92,20 +89,3 @@ async function callGroq(prompt) {
 
     }
 }
-
-var post = `
-# time now: ${new Date()}
-#với database như sau:
-    -events(id, name, title, date ? , info, description) -
-    -event_details(id, event_id, timeline, info, description) -
-    -speakers(id, name, img, position, info, description) -
-    -startups(id, name, project, logo, project_img, info, description) -
-    -investment_funds(id, name, logo, info, description) -
-    -speaker_event(speaker_id, event_id, note) -
-    -investment_fund_event(investment_fund_id, event_id, note) -
-    -startup_event(start_up_id, event_id, note)
-
-hãy chuyển văn bản vản nhập vào thành lệnh truy vấn database Supabase !!!:
-
-văn bản nhập vào: 'truy vấn các speaker tham gia các sự kiện tháng 7'
-`
