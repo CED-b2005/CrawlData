@@ -1,0 +1,35 @@
+const supabase = require('../lib/supabase/supabase');
+const Model = require("./model")
+
+class EventModel extends Model {
+    constructor() {
+        super("events")
+    }
+
+    async list() {
+        try {
+            const { data, error } = await supabase
+                .from(this.table)
+                .select("*, event_details(*)")
+            if (error) return { "error": error }
+            return data
+        } catch (error) {
+            return false
+        }
+    }
+
+    async showById(id) {
+        try {
+            const { data, error } = await supabase
+                .from(this.table)
+                .select("*, event_details(*)")
+                .eq("id", id)
+            if (error) return { "error": error }
+            return data
+        } catch (error) {
+            return false
+        }
+    }
+}
+
+module.exports = EventModel

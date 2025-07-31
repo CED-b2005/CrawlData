@@ -33,7 +33,7 @@ def request (html: str):
                 request_context.dispose()
                 return html
 def speakers (speakerList:str, name:str, img:str, position:str, end: bool):
-    speaker = '{' + f'"name": "{name}"' + ',' + f'"img": "{img}"' + ',' + f'"position": "{position}"'  + '}'
+    speaker = '{' + f'"name": "{name}"' + ',' + f'"img": "{img}"' + ',' + f'"position": "{position}"' + ',' + '"info" :  ""'  +'}'
     if (speakerList != ""):
         speakerList += ","
     if not end: return speakerList + speaker

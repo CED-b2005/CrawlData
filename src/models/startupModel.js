@@ -1,17 +1,16 @@
-// models/userModel.js
 const supabase = require('../lib/supabase/supabase');
 const Model = require("./model")
-class SpeakerModel extends Model {
+
+class StartupModel extends Model {
     constructor() {
-        super("speakers")
+        super("startups")
     }
 
-    show_speaker(where = "", value = "") {
-        const typeQuery = where == "name" ? "ilike" : "eq"
+    show_startup(where = "", value = "") {
+        const typeQuery = where == "id" ? "eq" : "ilike"
         value = where == "id" ? value : `%${value}`
         return this.show(typeQuery, where, value);
     }
 }
 
-
-module.exports = SpeakerModel;
+module.exports = StartupModel

@@ -26,8 +26,8 @@ def use_browser ():
 def day_id (element:str, days_ids: []):
     data = element.get_text().strip()
     days_ids.append({
-        "time" : data[:6],
-        "day" : data[6:],
+        "name" : data[:6],
+        "date" : data[6:],
         "id" :  element.get("data-id").strip()
     })
     return days_ids
@@ -54,14 +54,14 @@ def request(days_ids, html: []):
         return html
 
 def details (detailList:str, timeLine:str, title:str, end: bool):
-    detail = '{' + f'"timeLine": "{timeLine}"' + ',' + f'"title": "{title}"' + '}'
+    detail = '{' + '"event_id" :  "0" '  + ',' + f'"timeline": "{timeLine}"' + ',' + f'"title": "{title}"'  +'}'
     if (detailList != ""):
         detailList += ","
     if not end: return detailList + detail
     else: return f'[{detailList + detail}]'
 
 def events (eventList:str, day_id, details:str, end:bool):
-    event = '{' + f'"time": "{day_id["time"]}"' + ',' + f'"day": "{day_id["day"]}"' + ',' + f'"details":  {details}' + '}'
+    event = '{' + f'"name": "{day_id["name"]}"' + ',' + f'"date": "{day_id["date"]}"' + ',' + f'"details":  {details}' + '}'
     if (eventList != ""):
         eventList += ","
     if not end: return eventList + event
