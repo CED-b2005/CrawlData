@@ -7,7 +7,7 @@ const fetchData = {
     get: async(url, headers = {}, params = {}) => {
         try {
             const response = await axios.get(url, { headers, params });
-            console.log("GET response data: ", response.data);
+            // console.log("GET response data: ", response.data);
             return response.data;
         } catch (error) {
             console.error("GET request error: ", error.response || error.message);

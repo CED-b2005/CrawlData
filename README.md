@@ -21,14 +21,14 @@ Do when internship in Green System Solution (Da Nang - Vietnam)
 - title
 - date?
 - info
-- description
+
 
 ## event_details
 - id
 - event_id
 - timeline
 - info
-- description
+
 
 
 ## speakers
@@ -37,7 +37,7 @@ Do when internship in Green System Solution (Da Nang - Vietnam)
 - img
 - position
 - info
-- description
+
 
 ## startups
 - id
@@ -46,14 +46,14 @@ Do when internship in Green System Solution (Da Nang - Vietnam)
 - logo
 - project_img
 - info
-- description
+
 
 ## investment_funds
 - id
 - name
 - logo
 - info
-- description
+
 
 ## speaker_event
 - speaker_id

@@ -1,10 +1,9 @@
-const supabase = require('../lib/supabase/supabase');
-const Model = require("./model")
+const { supabase, SupabaseModel } = require("./supabase.model")
 
-class EventModel extends Model {
-    constructor() {
-        super("events")
-    }
+
+
+class EventModel extends SupabaseModel {
+    constructor() { super("events") }
 
     async list() {
         try {

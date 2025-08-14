@@ -1,10 +1,7 @@
-const supabase = require('../lib/supabase/supabase');
-const Model = require("./model")
+const { supabase, SupabaseModel } = require("./supabase.model")
 
-class StartupModel extends Model {
-    constructor() {
-        super("startups")
-    }
+class StartupModel extends SupabaseModel {
+    constructor() { super("startups") }
 
     show_startup(where = "", value = "") {
         const typeQuery = where == "id" ? "eq" : "ilike"

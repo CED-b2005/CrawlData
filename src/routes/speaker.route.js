@@ -1,27 +1,21 @@
-/**
- * 
- * @param {Express} express 
- * @returns {Object}
- */
-const userRouter = (express, app) => {
+const { model } = require('../lib/funcs/requires');
+const speakerModel = model("speaker");
+
+const speakerRouter = (express, app) => {
     const router = express.Router();
-    app.user(express.json());
 
     router.get("/", async(req, res) => {
-        res.send("show all users")
+        const data = await speakerModel.get();
+        return res.json(data)
     })
 
     router.get("/show", async(req, res) => {
-        const where = req.query.id ? "id" : "name"
-
-        res.send("show all users")
-    })
-
-    router.get("/update", async(req, res) => {
-        res.send("Create new user")
+        const id = parseInt(req.query.id) || " "
+        const data = await speakerModel.show("eq", "id", id);
+        return res.json(data);
     })
 
     return router;
 }
 
-module.exports = userRouter;
+module.exports = speakerRouter;
