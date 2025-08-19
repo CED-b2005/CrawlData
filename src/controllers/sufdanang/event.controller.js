@@ -1,13 +1,7 @@
-const EventModel = require("../../models/event.model");
-const DetailModel = require("../../models/detail.model");
 const { eventCrawler, titleCrawler } = require('../../lib/crawler/surfdanang/crawlers');
 const { formatData, aiModels } = require("../../lib/funcs/logic");
 const chatbot = require("../../lib/funcs/chatbot");
 
-const eventModel = new EventModel();
-const detailModel = new DetailModel();
-
-var event_id;
 
 const eventController = async() => {
     // crawl events ------------------------------------------------------
@@ -21,18 +15,8 @@ const eventController = async() => {
     const title = await titleCrawler();
     title.start_date = events[0].date;
     title.end_date = events[events.length - 1].date;
-    const eventDb = await eventModel.show("ilike", "name", `%${title.name}%`);
 
-    // save to db
-    if (eventDb == "" || eventDb == []) {
-        event_id = await eventModel.insert([title]);
-        for (let i = 0; i < events.length; i++) {
-            details[i].event_id = event_id[0].id;
-            await detailModel.insert([details[i]]);
-        }
-    } else event_id = eventDb[0].id
-
-    return event_id;
+    return { title, events }
 }
 
 module.exports = eventController;

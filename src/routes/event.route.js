@@ -1,5 +1,6 @@
-const { model } = require("../lib/funcs/requires");
-const eventModel = model("event");
+const EventModel = require("../models/event.model");
+
+const eventModel = new EventModel();
 
 const eventRouter = (express) => {
     const router = express.Router();
@@ -14,6 +15,21 @@ const eventRouter = (express) => {
         const eventModel = model("event");
         const data = await eventModel.showById(id)
         res.json(data)
+    })
+
+    router.post("/insert", async(req, res) => {
+        try {
+            const data = req.body
+            const eventDB = await eventModel.showByName(data.name);
+            if (eventDB == "" || eventDB == {} || eventDB == []) {
+                const event_id = eventModel.insert([data]);
+                return res.json({ event_id });
+            }
+            return res.json({ error: "duplication" })
+        } catch (error) {
+            console.log(error);
+            res.json({ error });
+        }
     })
 
     return router;

@@ -1,5 +1,5 @@
-const { model } = require('../lib/funcs/requires');
-const projectModel = model("project");
+const ProjectModel = require('../models/project.model');
+const projectModel = new ProjectModel();
 
 const projectRouter = (express) => {
     const router = express.Router();

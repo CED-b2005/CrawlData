@@ -47,11 +47,12 @@ class SupabaseModel {
         }
     }
 
-    async update(updateData = [{}]) {
+    async update(id = 0, updateData = [{}]) {
         try {
             const { data, error } = await supabase
                 .from(this.table)
-                .update(updateData);
+                .update(updateData)
+                .eq(id)
             if (!error) return data
             console.log("error when get: ", error);
             return false;

@@ -1,4 +1,6 @@
-const { model } = require("../lib/funcs/requires");
+const StartupModel = require("../models/startup.model");
+const startupModel = new StartupModel();
+
 const startupRouter = (express) => {
     const router = express.Router();
 

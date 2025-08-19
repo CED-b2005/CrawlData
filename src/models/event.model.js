@@ -29,6 +29,19 @@ class EventModel extends SupabaseModel {
             return false
         }
     }
+
+    async showByName(name) {
+        try {
+            const { data, error } = await supabase
+                .from(this.table)
+                .select("*, event_details(*)")
+                .ilike("name", name)
+            if (error) return { "error": error }
+            return data
+        } catch (error) {
+            return false
+        }
+    }
 }
 
 module.exports = EventModel
