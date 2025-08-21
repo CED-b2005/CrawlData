@@ -8,8 +8,6 @@ const vectorDB = {
     "person": pinecone.index('people', process.env.PINECONE_INDEX_PEOPLE).namespace("people"),
     "news": pinecone.index('news', process.env.PINECONE_INDEX_NEWS).namespace("news"),
     "other": pinecone.index('other', process.env.PINECONE_INDEX_OTHER).namespace("other"),
-    // "event": pinecone.index('event', process.env.PINECONE_HOST).namespace("event"),
-    // "index": pinecone.index('vectordb', process.env.PINECONE_HOST).namespace("vectordb")
 }
 
 const record = (_id, data = "") => {

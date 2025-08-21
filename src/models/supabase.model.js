@@ -2,14 +2,22 @@ const supabase = require("../lib/supabase/supabase")
 
 class SupabaseModel {
     table;
-    constructor(table = "") { this.table = table; }
+    columns;
+
+    /**
+     * @param {{table}} data 
+     */
+    constructor(data) {
+        const { tabel  } = data
+        this.table = tabel
+    }
 
     async insert(insertData = [{}]) {
         try {
             const { data, error } = await supabase
                 .from(this.table)
                 .insert(insertData)
-                .select("id");
+                .select("*");
             if (!error) return data
             console.log("error when insert: ", error);
             return false;
@@ -19,7 +27,7 @@ class SupabaseModel {
         }
     }
 
-    async get() {
+    async show() {
         try {
             const { data, error } = await supabase
                 .from(this.table)
@@ -33,16 +41,17 @@ class SupabaseModel {
         }
     }
 
-    async show(typeQuery = "", where = "", value = "") {
+    async findById(id) {
         try {
             const { data, error } = await supabase
                 .from(this.table)
-                .select('*')[typeQuery](where, value);
+                .select('*')
+                .eq("id", id)
             if (!error) return data
-            console.log("error when show: ", error);
+            console.log("error when get: ", error);
             return false;
         } catch (error) {
-            console.log("error when show: ", error)
+            console.log("error when get: ", error)
             return false
         }
     }

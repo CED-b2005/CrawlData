@@ -1,16 +1,16 @@
 const { supabase, SupabaseModel } = require("./supabase.model")
-
-
 class SpeakerModel extends SupabaseModel {
-    constructor() { super("speakers") }
-
-    show_speaker(where = "", value = "") {
-        const typeQuery = where == "name" ? "ilike" : "eq"
-        value = where == "id" ? value : `%${value}`
-        return this.show(typeQuery, where, value);
+    constructor() {
+        super({table: "speakers"});
+        this.columns = {
+            id: "id",
+            name: "name",
+            position: "position",
+            description: "description",
+            contacts: "contacts",
+        }
     }
-
-    async showByName(name = "") {
+    async findByName(name = "") {
         try {
             const { data, error } = supabase
                 .from(this.table)

@@ -49,14 +49,13 @@ app.use("/api/crawler", router(express, "crawler"));
 
 
 app.get("/test", async(req, res) => {
+    const {createAssistant, uploadFile, deleteUploadFile, chatResponse } = require("./src/lib/pinecone/assistant.pinecone");
+    const {message} = req.query;
+    const response = await chatResponse(message);
+    res.json(response)
 
-
-    // const { startup_StartupWheel, startupDanang } = require("./src/controllers/other/startup.controller");
-    // const beta = await startupDanang();
-
-    console.log(beta);
-
-    return res.send(beta);
+    
+    
 })
 
 // ---------------------------------------------

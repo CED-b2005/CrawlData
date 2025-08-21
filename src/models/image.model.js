@@ -1,8 +1,14 @@
 const { supabase, SupabaseModel } = require("./supabase.model")
 
-
 class ImageModel extends SupabaseModel {
-    constructor() { super("projects") }
+    constructor() {
+        super({table: "images"})
+        this.columns = {
+            id: "id",
+            old_url: "old_url",
+            new_url: "new_url"
+        }
+    }
 
     async findByOldUrl(old_url = " ") {
         try {
