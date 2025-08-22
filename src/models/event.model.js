@@ -15,11 +15,11 @@ class EventModel extends SupabaseModel {
         }
     }
 
-    async showByName(name) {
+    async findByName(name) {
         try {
             const { data, error } = await supabase
                 .from(this.table)
-                .select("*")
+                .select("id")
                 .ilike(this.columns.name, name)
             if (error) return { "error": error }
             return data

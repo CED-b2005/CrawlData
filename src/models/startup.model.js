@@ -1,8 +1,8 @@
 const { supabase, SupabaseModel } = require("./supabase.model")
 
 class StartupModel extends SupabaseModel {
-    constructor() { 
-        super({table:"projects"})
+    constructor() {
+        super({ table: "projects" })
         this.columns = {
             id: "id",
             name: "name",
@@ -11,7 +11,8 @@ class StartupModel extends SupabaseModel {
             link: "link",
             description: "description",
             owner: "owner",
-            company: "company",        }
+            company: "company",
+        }
     }
 
     async showByNameAndLink(name = "", link = "") {

@@ -1,7 +1,7 @@
 const { supabase, SupabaseModel } = require("./supabase.model")
 class SpeakerModel extends SupabaseModel {
     constructor() {
-        super({table: "speakers"});
+        super({ table: "speakers" });
         this.columns = {
             id: "id",
             name: "name",
@@ -10,12 +10,12 @@ class SpeakerModel extends SupabaseModel {
             contacts: "contacts",
         }
     }
-    async findByName(name = "") {
+    async findByName(name) {
         try {
             const { data, error } = supabase
                 .from(this.table)
                 .select("*")
-                .ilike("name", name)
+                .ilike(this.columns.name, name)
             if (!error) return data
             console.log("error when show (supabase): ", error);
             return false;

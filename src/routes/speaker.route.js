@@ -5,28 +5,35 @@ const speakerRouter = (express, app) => {
     const router = express.Router();
 
     router.get("/", async(req, res) => {
-        const data = await speakerModel.get();
-        console.log("get speakers")
+        const { limit } = req.query;
+        const data = await speakerModel.show(limit);
         return res.json(data)
     })
 
     router.get("/show", async(req, res) => {
-        const id = parseInt(req.query.id) || " "
-        const data = await speakerModel.show("eq", "id", id);
-        return res.json(data);
+        const { id } = req.query
+        if (id) {
+            const data = await speakerModel.findById(id)
+            if (!data) res.json([])
+            res.json(data)
+        }
+        return res.json([])
     })
 
     router.post("/insert", async(req, res) => {
-        // const id = parseInt(req.query.id); 
         try {
-            const data = req.body
-            console.log(data);
-            res.end()
+            const request = req.body
+            const db = await speakerModel.findByName(request.name);
+            if (db == "" || db == {} || db == []) {
+                const speaker_id = speakerModel.insert([request]);
+                return res.json({ speaker_id });
+            }
+            if (!db) res.json({ error: "Database error" });
+            return res.json({ error: "duplication" });
         } catch (error) {
-            console.log(error)
-            res.end()
+            console.log(error);
+            res.json({ error });
         }
-        // const data = req.s
     })
 
     return router;
