@@ -1,3 +1,4 @@
+const e = require("express");
 const EventModel = require("../models/event.model");
 const eventModel = new EventModel();
 
@@ -28,8 +29,9 @@ const eventRouter = (express) => {
             const request = req.body
             const db = await eventModel.findByName(request.name);
             if (db == "" || db == {} || db == []) {
-                const event_id = eventModel.insert([request]);
-                return res.json({ event_id });
+                const event_id = await eventModel.insert([request]);
+                if (!event_id) return res.json({ error: "data not valid" })
+                return res.json({ event_id: event_id[0].id });
             }
             if (!db) res.json({ error: "Database error" });
             return res.json({ error: "duplication" });

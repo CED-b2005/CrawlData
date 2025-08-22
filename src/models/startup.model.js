@@ -2,7 +2,7 @@ const { supabase, SupabaseModel } = require("./supabase.model")
 
 class StartupModel extends SupabaseModel {
     constructor() {
-        super({ table: "projects" })
+        super({ table: "startups" })
         this.columns = {
             id: "id",
             name: "name",
@@ -15,13 +15,12 @@ class StartupModel extends SupabaseModel {
         }
     }
 
-    async showByNameAndLink(name = "", link = "") {
+    async showByName(name = "") {
         try {
             const { data, error } = await supabase
                 .from(this.table)
                 .select("*")
                 .ilike("name", name)
-                .ilike("link", link)
             if (!error) return data
             console.log("error when show (supabase): ", error);
             return false;

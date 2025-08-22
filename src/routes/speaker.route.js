@@ -1,7 +1,7 @@
 const SpeakerModel = require("../models/speaker.model");
 const speakerModel = new SpeakerModel()
 
-const speakerRouter = (express, app) => {
+const speakerRouter = (express) => {
     const router = express.Router();
 
     router.get("/", async(req, res) => {
@@ -11,9 +11,14 @@ const speakerRouter = (express, app) => {
     })
 
     router.get("/show", async(req, res) => {
-        const { id } = req.query
+        const { id, name } = req.query
         if (id) {
             const data = await speakerModel.findById(id)
+            if (!data) res.json([])
+            res.json(data)
+        }
+        if (name) {
+            const data = await speakerModel.findByName(name)
             if (!data) res.json([])
             res.json(data)
         }
@@ -23,13 +28,9 @@ const speakerRouter = (express, app) => {
     router.post("/insert", async(req, res) => {
         try {
             const request = req.body
-            const db = await speakerModel.findByName(request.name);
-            if (db == "" || db == {} || db == []) {
-                const speaker_id = speakerModel.insert([request]);
-                return res.json({ speaker_id });
-            }
-            if (!db) res.json({ error: "Database error" });
-            return res.json({ error: "duplication" });
+            const speaker_id = await speakerModel.insert([request]);
+            if (!speaker_id) return res.json({ error: "data not valid" })
+            return res.json({ speaker_id: speaker_id[0].id });
         } catch (error) {
             console.log(error);
             res.json({ error });
