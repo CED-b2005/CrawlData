@@ -6,25 +6,25 @@ const eventRouter = (express) => {
     const router = express.Router();
 
     // success
-    router.get("/", async(req, res) => {
-        const { limit } = req.query;
-        const data = await eventModel.show(limit)
-        res.json(data)
-    })
-
-    // success
-    router.get("/show", async(req, res) => {
-        const { id } = req.query
+    router.get("/", async (req, res) => {
+        const { limit, id, name } = req.query;
         if (id) {
             const data = await eventModel.findById(id)
             if (!data) res.json([])
-            res.json(data)
+            return res.json(data)
         }
-        return res.json([])
+        if (name) {
+            const data = await eventModel.findByName(name)
+            if (!data) res.json([])
+            return res.json(data)
+        }
+        const data = await eventModel.show(limit)
+        if (!data) res.json([])
+        return res.json(data)
     })
 
     // success
-    router.post("/insert", async(req, res) => {
+    router.post("/", async (req, res) => {
         try {
             const request = req.body
             const db = await eventModel.findByName(request.name);

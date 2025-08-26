@@ -19,6 +19,7 @@ const startupRouter = (express) => {
             return res.json(data)
         }
         const data = await startupModel.show(limit);
+        if (!data) res.json([])
         return res.json(data)
     })
 

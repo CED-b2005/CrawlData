@@ -20,6 +20,7 @@ const speakerRouter = (express) => {
             return res.json(data)
         }
         const data = await speakerModel.show(limit);
+        if (!data) res.json([])
         return res.json(data)
     })
 
