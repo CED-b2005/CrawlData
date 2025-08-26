@@ -1,5 +1,7 @@
 const StartupModel = require("../models/startup.model");
-const startupModel = new StartupModel()
+const EventStartupModel = require("../models/event_startup.model");
+const startupModel = new StartupModel();
+const eventStartupModel = new EventStartupModel();
 
 const startupRouter = (express) => {
     const router = express.Router();
@@ -23,9 +25,17 @@ const startupRouter = (express) => {
     router.post("/insert", async(req, res) => {
         try {
             const request = req.body
-            const startup_id = await startupModel.insert([request]);
-            if (!startup_id) return res.json({ error: "data not valid" })
-            return res.json({ startup_id: startup_id[0].id });
+            if (request) {
+                const { event_id, startup } = request;
+                const startup_id = await startupModel.insert([startup]);
+                if (!startup_id) return res.json({ error: "data not valid" })
+                if (event_id) {
+                    const eventStartup_id = await eventStartupModel.insert({ event_id, startup_id });
+                    if (!eventStartup_id) return res.json({ error: "data not valid" });
+                    return res.json({ message: "success" })
+                }
+                return res.json({ message: "success" })
+            }
         } catch (error) {
             console.log(error);
             res.json({ error });

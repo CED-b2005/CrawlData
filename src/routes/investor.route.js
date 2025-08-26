@@ -1,7 +1,7 @@
-const infundRouter = (express) => {
+const investorRouter = (express) => {
     const router = express.Router();
 
 
     return router;
 }
-module.exports = infundRouter;
+module.exports = investorRouter;
