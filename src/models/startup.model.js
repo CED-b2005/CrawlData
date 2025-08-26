@@ -15,7 +15,7 @@ class StartupModel extends SupabaseModel {
         }
     }
 
-    async showByName(name = "") {
+    async findByName(name = "") {
         try {
             const { data, error } = await supabase
                 .from(this.table)

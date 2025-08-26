@@ -7,22 +7,22 @@ const startupRouter = (express) => {
     const router = express.Router();
 
     router.get("/", async(req, res) => {
-        const { limit } = req.query;
+        const { limit, id, name } = req.query;
+        if (id) {
+            const data = await startupModel.findById(id)
+            if (!data) res.json([])
+            return res.json(data)
+        }
+        if (name) {
+            const data = await startupModel.findByName(name)
+            if (!data) res.json([])
+            return res.json(data)
+        }
         const data = await startupModel.show(limit);
         return res.json(data)
     })
 
-    router.get("/show", async(req, res) => {
-        const { id } = req.query
-        if (id) {
-            const data = await startupModel.findById(id)
-            if (!data) res.json([])
-            res.json(data)
-        }
-        return res.json([])
-    })
-
-    router.post("/insert", async(req, res) => {
+    router.post("/", async(req, res) => {
         try {
             const request = req.body
             if (request) {

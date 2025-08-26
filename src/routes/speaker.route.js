@@ -16,7 +16,6 @@ const speakerRouter = (express) => {
         if (name) {
             const data = await speakerModel.findByName(name)
             console.log(data);
-            return res.send(data);
             if (!data) return res.json([])
             return res.json(data)
         }
