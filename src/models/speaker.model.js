@@ -13,7 +13,7 @@ class SpeakerModel extends SupabaseModel {
 
     async findByName(name) {
         try {
-            const { data, error } = supabase
+            const { data, error } = await supabase
                 .from(this.table)
                 .select("*")
                 .ilike(this.columns.name, name)
@@ -26,6 +26,5 @@ class SpeakerModel extends SupabaseModel {
         }
     }
 }
-
 
 module.exports = SpeakerModel;
