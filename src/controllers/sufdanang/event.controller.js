@@ -15,8 +15,10 @@ const eventController = async() => {
     const title = await titleCrawler();
     title.start_date = events[0].date;
     title.end_date = events[events.length - 1].date;
+    title.source_name = "SURF DANANG"
+    title.detail = events;
 
-    return { title, events }
+    return title 
 }
 
 module.exports = eventController;

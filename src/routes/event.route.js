@@ -26,18 +26,24 @@ const eventRouter = (express) => {
     // success
     router.post("/", async (req, res) => {
         try {
-            const request = req.body
-            const db = await eventModel.findByName(request.name);
+            const {event} = req.body
+            const db = await eventModel.findByName(event.name);
             if (db == "" || db == {} || db == []) {
-                const event_id = await eventModel.insert([request]);
-                if (!event_id) return res.json({ error: "data not valid" })
+                const event_id = await eventModel.insert([event]);
+                if (!event_id) {
+                    res.status(422);
+                    return res.json({ error: "data not valid" })
+                }
                 return res.json({ event_id: event_id[0].id });
             }
-            if (!db) res.json({ error: "Database error" });
+            if (!db) {
+                res.status(422);
+                return res.json({ error: "Database error" });
+            }
             return res.json({ error: "duplication" });
         } catch (error) {
             console.log(error);
-            res.json({ error });
+            return res.json({ error });
         }
     })
 

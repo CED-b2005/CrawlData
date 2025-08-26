@@ -5,7 +5,7 @@ class EventModel extends SupabaseModel {
         super({ table: "events" })
         this.columns = {
             id: "id",
-            source_id: "source_id",
+            source_name: "source_name",
             name: "name",
             title: "title",
             start_date: "start_date",
