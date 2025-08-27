@@ -11,16 +11,16 @@ const startupRouter = (express) => {
         if (id) {
             const data = await startupModel.findById(id)
             if (!data) res.json([])
-            return res.json(data)
+            return res.json({ startups: data })
         }
         if (name) {
             const data = await startupModel.findByName(name)
             if (!data) res.json([])
-            return res.json(data)
+            return res.json({ startups: data })
         }
         const data = await startupModel.show(limit);
         if (!data) res.json([])
-        return res.json(data)
+        return res.json({ startups: data })
     })
 
     router.post("/", async(req, res) => {
